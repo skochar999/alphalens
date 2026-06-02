@@ -1,0 +1,241 @@
+test_date,category,fund_name,hist_pick_ann,hist_pick_hit,hist_n_months,fwd_months,fwd_alpha_ann,random_alpha
+May 2024,Large Cap,Edelweiss Large Cap Fund-Growth option,30.91,83.3,12,6,18.07,-10.52
+May 2024,Large Cap,Mirae Asset Large Cap Fund,22.04,75.0,11,6,20.2,18.07
+May 2024,Mid Cap,Edelweiss Mid Cap Fund,45.03,83.3,12,6,39.45,21.43
+May 2024,Mid Cap,SBI MIDCAP FUND - DIRECT PLAN - GROWTH,32.32,83.3,11,6,23.51,1.72
+May 2024,Small Cap,Edelweiss Small Cap Fund,43.3,75.0,12,6,31.98,20.84
+May 2024,Small Cap,Tata Small Cap Fund-Direct Plan-Growth,21.83,75.0,12,6,26.26,20.84
+May 2024,Flexi Cap,HDFC Flexi Cap Fund,51.19,88.9,8,6,26.08,15.87
+May 2024,Flexi Cap,WhiteOak Capital Flexi Cap Fund Direct Plan-Growth,34.98,88.9,9,5,35.32,2.12
+May 2024,Multi Cap,Edelweiss Multi Cap Fund,53.56,85.7,6,6,31.63,3.62
+May 2024,Multi Cap,HDFC Multi Cap Fund,53.53,77.8,8,6,21.61,3.62
+May 2024,Large & Mid Cap,HDFC Large and Mid Cap Fund,56.18,88.9,8,6,20.07,-48.9
+May 2024,Large & Mid Cap,Edelweiss Large & Mid Cap Fund,36.08,91.7,12,6,29.04,-9.4
+May 2024,Focused,Edelweiss Focused Fund,34.07,83.3,12,6,26.39,-1.95
+May 2024,Focused,SBI FOCUSED FUND - DIRECT PLAN -GROWTH,27.39,66.7,11,6,18.18,1.05
+May 2024,Value / Contrarian,SBI CONTRA FUND - DIRECT PLAN - GROWTH,42.52,83.3,11,6,16.39,15.18
+May 2024,Value / Contrarian,Quant Value Fund ,38.37,70.0,10,6,-3.36,-0.89
+May 2024,Tax Saver (ELSS),HDFC ELSS Tax saver,51.81,100.0,6,6,23.1,
+May 2024,Tax Saver (ELSS),SBI ELSS Tax Saver FUND - DIRECT PLAN -GROWTH,49.24,83.3,11,6,21.71,24.61
+May 2024,Thematic / Sectoral,HDFC Housing Opportunities Fund ,63.09,100.0,8,6,14.36,9.36
+May 2024,Thematic / Sectoral,SBI HEALTHCARE OPPORTUNITIES FUND - DIRECT PLAN -GROWTH,43.67,83.3,11,6,42.24,3.62
+May 2024,Balanced Advantage,HDFC Balanced Advantage Fund Plan,44.92,88.9,8,6,14.93,-0.25
+May 2024,Balanced Advantage,Edelweiss Balanced Advantage Fund -Direct Plan-Growth Option,24.85,83.3,12,6,12.4,-7.31
+May 2024,Hybrid,HDFC Hybrid Equity Fund,30.62,88.9,8,6,14.73,-1.69
+May 2024,Hybrid,Edelweiss Aggressive Hybrid Fund-Direct Plan-Growth Option,31.21,83.3,12,6,20.71,-21.58
+Jul 2024,Large Cap,Edelweiss Large Cap Fund-Growth option,32.47,85.7,14,6,0.63,-8.84
+Jul 2024,Large Cap,Mirae Asset Large Cap Fund,25.63,78.6,13,6,3.13,-8.84
+Jul 2024,Mid Cap,Edelweiss Mid Cap Fund,50.61,85.7,14,6,18.25,
+Jul 2024,Mid Cap,SBI MIDCAP FUND - DIRECT PLAN - GROWTH,36.83,85.7,13,6,2.87,-3.33
+Jul 2024,Small Cap,Edelweiss Small Cap Fund,45.74,78.6,14,6,12.9,-8.69
+Jul 2024,Small Cap,Tata Small Cap Fund-Direct Plan-Growth,22.96,71.4,14,6,7.7,-1.82
+Jul 2024,Flexi Cap,HDFC Flexi Cap Fund,51.35,90.9,10,6,7.08,2.57
+Jul 2024,Flexi Cap,Edelweiss Flexi Cap Fund,41.43,85.7,14,6,6.0,2.57
+Jul 2024,Multi Cap,Edelweiss Multi Cap Fund,57.0,88.9,8,6,10.42,14.3
+Jul 2024,Multi Cap,HDFC Multi Cap Fund,54.0,81.8,10,6,3.24,-2.92
+Jul 2024,Large & Mid Cap,HDFC Large and Mid Cap Fund,55.2,90.9,10,6,2.37,0.59
+Jul 2024,Large & Mid Cap,Edelweiss Large & Mid Cap Fund,40.21,92.9,14,6,10.15,-7.14
+Jul 2024,Focused,Edelweiss Focused Fund,39.02,85.7,14,6,6.09,-11.44
+Jul 2024,Focused,SBI FOCUSED FUND - DIRECT PLAN -GROWTH,29.2,71.4,13,6,4.22,-0.63
+Jul 2024,Value / Contrarian,SBI CONTRA FUND - DIRECT PLAN - GROWTH,42.3,78.6,13,6,0.92,3.18
+Jul 2024,Value / Contrarian,Quant Value Fund ,31.73,66.7,12,6,-7.49,5.63
+Jul 2024,Tax Saver (ELSS),HDFC ELSS Tax saver,52.04,100.0,8,6,2.94,3.99
+Jul 2024,Tax Saver (ELSS),SBI ELSS Tax Saver FUND - DIRECT PLAN -GROWTH,48.95,85.7,13,6,3.67,6.08
+Jul 2024,Thematic / Sectoral,HDFC Housing Opportunities Fund ,62.59,100.0,10,6,-12.75,0.06
+Jul 2024,Thematic / Sectoral,quant Momentum Fund,35.29,100.0,7,6,-10.15,8.72
+Jul 2024,Balanced Advantage,HDFC Balanced Advantage Fund Plan,42.43,90.9,10,6,2.92,-2.74
+Jul 2024,Balanced Advantage,WhiteOak Capital Balanced Advantage Fund Direct Plan Growth,23.83,90.9,11,5,16.57,5.37
+Jul 2024,Hybrid,HDFC Hybrid Equity Fund,31.23,90.9,10,6,3.5,8.91
+Jul 2024,Hybrid,Edelweiss Aggressive Hybrid Fund-Direct Plan-Growth Option,32.33,85.7,14,6,10.06,7.42
+Sep 2024,Large Cap,Edelweiss Large Cap Fund-Growth option,33.08,87.5,16,6,-29.41,13.79
+Sep 2024,Large Cap,Mirae Asset Large Cap Fund,27.14,81.2,15,6,-25.37,12.9
+Sep 2024,Mid Cap,Edelweiss Mid Cap Fund,49.86,87.5,16,6,-33.08,
+Sep 2024,Mid Cap,SBI MIDCAP FUND - DIRECT PLAN - GROWTH,34.96,87.5,15,6,-30.26,1.08
+Sep 2024,Small Cap,Edelweiss Small Cap Fund,44.63,81.2,16,6,-39.34,-24.48
+Sep 2024,Small Cap,Tata Small Cap Fund-Direct Plan-Growth,24.07,75.0,16,6,-28.82,-20.55
+Sep 2024,Flexi Cap,HDFC Flexi Cap Fund,47.85,92.3,12,6,-16.24,0.65
+Sep 2024,Flexi Cap,Edelweiss Flexi Cap Fund,40.59,87.5,16,6,-32.5,11.08
+Sep 2024,Multi Cap,Edelweiss Multi Cap Fund,54.17,90.9,10,6,-36.45,2.83
+Sep 2024,Multi Cap,HDFC Multi Cap Fund,50.95,84.6,12,6,-38.3,
+Sep 2024,Large & Mid Cap,HDFC Large and Mid Cap Fund,51.92,92.3,12,6,-34.55,-37.96
+Sep 2024,Large & Mid Cap,Edelweiss Large & Mid Cap Fund,39.74,93.8,16,6,-31.42,12.99
+Sep 2024,Focused,Edelweiss Focused Fund,38.32,87.5,16,6,-29.15,-15.2
+Sep 2024,Focused,SBI FOCUSED FUND - DIRECT PLAN -GROWTH,28.0,75.0,15,6,-15.2,-23.99
+Sep 2024,Value / Contrarian,SBI CONTRA FUND - DIRECT PLAN - GROWTH,41.26,81.2,15,6,-28.84,6.49
+Sep 2024,Value / Contrarian,Quant Value Fund ,28.12,64.3,14,6,-28.76,-28.84
+Sep 2024,Tax Saver (ELSS),HDFC ELSS Tax saver,47.99,100.0,10,6,-21.8,-14.6
+Sep 2024,Tax Saver (ELSS),SBI ELSS Tax Saver FUND - DIRECT PLAN -GROWTH,47.62,87.5,15,6,-28.37,-14.6
+Sep 2024,Thematic / Sectoral,HDFC Housing Opportunities Fund ,52.6,91.7,12,6,-45.46,11.22
+Sep 2024,Thematic / Sectoral,SBI HEALTHCARE OPPORTUNITIES FUND - DIRECT PLAN -GROWTH,45.76,81.2,15,6,-10.63,-24.64
+Sep 2024,Balanced Advantage,HDFC Balanced Advantage Fund Plan,39.33,92.3,12,6,-17.26,13.38
+Sep 2024,Balanced Advantage,WhiteOak Capital Balanced Advantage Fund Direct Plan Growth,24.5,92.3,13,5,-4.92,-16.38
+Sep 2024,Hybrid,HDFC Hybrid Equity Fund,29.39,92.3,12,6,-17.3,-6.1
+Sep 2024,Hybrid,Edelweiss Aggressive Hybrid Fund-Direct Plan-Growth Option,33.13,87.5,16,6,-18.92,5.9
+Nov 2024,Large Cap,Edelweiss Large Cap Fund-Growth option,26.63,83.3,18,6,-1.06,13.17
+Nov 2024,Large Cap,SBI Large Cap FUND-DIRECT PLAN -GROWTH,21.46,72.2,17,6,0.65,11.51
+Nov 2024,Mid Cap,Edelweiss Mid Cap Fund,43.17,83.3,18,6,-5.59,-2.43
+Nov 2024,Mid Cap,SBI MIDCAP FUND - DIRECT PLAN - GROWTH,29.21,83.3,17,6,-7.39,-0.29
+Nov 2024,Small Cap,Edelweiss Small Cap Fund,39.53,77.8,18,6,-20.24,
+Nov 2024,Small Cap,Tata Small Cap Fund-Direct Plan-Growth,23.31,77.8,18,6,-28.03,-15.46
+Nov 2024,Flexi Cap,HDFC Flexi Cap Fund,40.43,86.7,14,6,6.13,-1.74
+Nov 2024,Flexi Cap,WhiteOak Capital Flexi Cap Fund Direct Plan-Growth,37.63,92.9,14,5,-15.37,
+Nov 2024,Multi Cap,Edelweiss Multi Cap Fund,42.6,84.6,12,6,-9.8,-3.45
+Nov 2024,Multi Cap,WhiteOak Capital Multi Cap Fund Direct Plan Growth,41.12,83.3,12,6,-3.45,-9.32
+Nov 2024,Large & Mid Cap,HDFC Large and Mid Cap Fund,40.7,86.7,14,6,-4.72,-1.54
+Nov 2024,Large & Mid Cap,Edelweiss Large & Mid Cap Fund,33.73,88.9,18,6,-7.73,
+Nov 2024,Focused,Edelweiss Focused Fund,31.51,83.3,18,6,-3.46,6.5
+Nov 2024,Focused,SBI FOCUSED FUND - DIRECT PLAN -GROWTH,24.14,72.2,17,6,2.64,-5.67
+Nov 2024,Value / Contrarian,SBI CONTRA FUND - DIRECT PLAN - GROWTH,33.3,77.8,17,6,-3.94,-2.29
+Nov 2024,Value / Contrarian,Quant Value Fund ,22.72,56.2,16,6,-21.15,3.84
+Nov 2024,Tax Saver (ELSS),WhiteOak Capital ELSS Tax Saver Fund Direct Plan Growth,40.05,92.9,14,6,-1.72,-5.46
+Nov 2024,Tax Saver (ELSS),HDFC ELSS Tax saver,37.46,91.7,12,6,4.88,4.33
+Nov 2024,Thematic / Sectoral,SBI HEALTHCARE OPPORTUNITIES FUND - DIRECT PLAN -GROWTH,43.17,83.3,17,6,0.79,-6.96
+Nov 2024,Thematic / Sectoral,HDFC Housing Opportunities Fund ,42.21,85.7,14,6,-15.34,-4.01
+Nov 2024,Balanced Advantage,HDFC Balanced Advantage Fund Plan,32.07,86.7,14,6,1.07,6.47
+Nov 2024,Balanced Advantage,WhiteOak Capital Balanced Advantage Fund Direct Plan Growth,24.5,92.9,14,6,6.47,12.29
+Nov 2024,Hybrid,HDFC Hybrid Equity Fund,23.81,86.7,14,6,2.43,-0.65
+Nov 2024,Hybrid,Edelweiss Aggressive Hybrid Fund-Direct Plan-Growth Option,27.71,83.3,18,6,2.92,2.28
+Jan 2025,Large Cap,Edelweiss Large Cap Fund-Growth option,22.92,75.0,20,6,13.14,15.6
+Jan 2025,Large Cap,Mirae Asset Large Cap Fund,18.52,75.0,19,6,14.85,15.6
+Jan 2025,Mid Cap,Edelweiss Mid Cap Fund,40.9,85.0,20,6,10.24,-5.3
+Jan 2025,Mid Cap,Mirae Asset Midcap Fund- Direct Growth Option,31.46,75.0,19,6,11.81,0.42
+Jan 2025,Small Cap,Edelweiss Small Cap Fund,35.89,75.0,20,6,3.86,3.02
+Jan 2025,Small Cap,BANDHAN SMALL CAP FUND - DIRECT PLAN GROWTH,26.48,71.4,7,6,0.88,-3.17
+Jan 2025,Flexi Cap,HDFC Flexi Cap Fund,34.75,82.4,16,6,15.81,-4.04
+Jan 2025,Flexi Cap,WhiteOak Capital Flexi Cap Fund Direct Plan-Growth,34.45,93.8,16,5,-4.33,-4.04
+Jan 2025,Multi Cap,WhiteOak Capital Multi Cap Fund Direct Plan Growth,37.58,85.7,14,6,10.49,6.45
+Jan 2025,Multi Cap,Edelweiss Multi Cap Fund,37.04,80.0,14,6,6.45,10.91
+Jan 2025,Large & Mid Cap,HDFC Large and Mid Cap Fund,35.39,82.4,16,6,12.47,-32.21
+Jan 2025,Large & Mid Cap,Edelweiss Large & Mid Cap Fund,31.19,90.0,20,6,7.67,
+Jan 2025,Focused,Edelweiss Focused Fund,29.14,80.0,20,6,7.38,
+Jan 2025,Focused,SBI FOCUSED FUND - DIRECT PLAN -GROWTH,21.31,70.0,19,6,18.12,-6.32
+Jan 2025,Value / Contrarian,SBI CONTRA FUND - DIRECT PLAN - GROWTH,29.23,75.0,19,6,8.31,-1.29
+Jan 2025,Value / Contrarian,Quant Value Fund ,18.66,55.6,18,6,-8.48,-2.07
+Jan 2025,Tax Saver (ELSS),WhiteOak Capital ELSS Tax Saver Fund Direct Plan Growth,37.09,93.8,16,6,9.69,0.27
+Jan 2025,Tax Saver (ELSS),HDFC ELSS Tax saver,30.99,85.7,14,6,16.38,-2.05
+Jan 2025,Thematic / Sectoral,SBI HEALTHCARE OPPORTUNITIES FUND - DIRECT PLAN -GROWTH,40.63,80.0,19,6,0.54,-5.56
+Jan 2025,Thematic / Sectoral,HDFC Housing Opportunities Fund ,34.34,75.0,16,6,7.33,3.98
+Jan 2025,Balanced Advantage,HDFC Balanced Advantage Fund Plan,27.62,82.4,16,6,11.18,5.59
+Jan 2025,Balanced Advantage,WhiteOak Capital Balanced Advantage Fund Direct Plan Growth,22.59,93.8,16,5,7.79,0.39
+Jan 2025,Hybrid,Edelweiss Aggressive Hybrid Fund-Direct Plan-Growth Option,25.65,85.0,20,6,12.44,0.27
+Jan 2025,Hybrid,HDFC Hybrid Equity Fund,20.83,82.4,16,6,12.0,8.6
+Mar 2025,Large Cap,Edelweiss Large Cap Fund-Growth option,16.04,68.2,22,6,22.29,-11.37
+Mar 2025,Large Cap,Mirae Asset Large Cap Fund,12.13,68.2,21,6,26.03,22.29
+Mar 2025,Mid Cap,Edelweiss Mid Cap Fund,27.24,77.3,22,6,37.17,41.9
+Mar 2025,Mid Cap,Mirae Asset Midcap Fund- Direct Growth Option,18.41,68.2,21,6,41.9,37.17
+Mar 2025,Small Cap,Edelweiss Small Cap Fund,21.73,68.2,22,6,35.11,18.59
+Mar 2025,Small Cap,Tata Small Cap Fund-Direct Plan-Growth,9.65,63.6,22,6,18.52,42.61
+Mar 2025,Flexi Cap,HDFC Flexi Cap Fund,26.48,73.7,18,6,26.43,1.39
+Mar 2025,Flexi Cap,WhiteOak Capital Flexi Cap Fund Direct Plan-Growth,22.05,83.3,18,5,15.49,-11.3
+Mar 2025,Multi Cap,WhiteOak Capital Multi Cap Fund Direct Plan Growth,22.1,75.0,16,6,34.94,1.9
+Mar 2025,Multi Cap,HDFC Multi Cap Fund,21.2,68.4,18,6,30.08,-8.34
+Mar 2025,Large & Mid Cap,HDFC Large and Mid Cap Fund,23.1,73.7,18,6,28.91,27.62
+Mar 2025,Large & Mid Cap,Edelweiss Large & Mid Cap Fund,20.34,81.8,22,6,27.62,-84.0
+Mar 2025,Focused,Edelweiss Focused Fund,19.92,72.7,22,6,23.1,-16.77
+Mar 2025,Focused,Bandhan Focused Fund,16.9,85.7,7,6,-6.93,25.3
+Mar 2025,Value / Contrarian,SBI CONTRA FUND - DIRECT PLAN - GROWTH,21.23,68.2,21,6,21.29,-15.17
+Mar 2025,Value / Contrarian,Quant Value Fund ,11.06,50.0,20,6,10.04,-3.28
+Mar 2025,Tax Saver (ELSS),Sundaram ELSS Tax Saver Fund Direct Plan Growth,35.59,75.0,8,0,,-13.66
+Mar 2025,Tax Saver (ELSS),WhiteOak Capital ELSS Tax Saver Fund Direct Plan Growth,23.95,83.3,18,6,30.26,2.35
+Mar 2025,Thematic / Sectoral,SBI HEALTHCARE OPPORTUNITIES FUND - DIRECT PLAN -GROWTH,29.65,72.7,21,6,31.9,3.2
+Mar 2025,Thematic / Sectoral,HDFC Housing Opportunities Fund ,19.91,66.7,18,6,31.0,23.67
+Mar 2025,Balanced Advantage,HDFC Balanced Advantage Fund Plan,20.46,73.7,18,6,17.47,17.53
+Mar 2025,Balanced Advantage,WhiteOak Capital Balanced Advantage Fund Direct Plan Growth,16.06,83.3,18,5,16.49,8.93
+Mar 2025,Hybrid,Axis Equity Savings Fund,17.99,100.0,6,6,-11.43,-1.88
+Mar 2025,Hybrid,Edelweiss Aggressive Hybrid Fund-Direct Plan-Growth Option,18.94,77.3,22,6,22.76,1.44
+May 2025,Large Cap,Edelweiss Large Cap Fund-Growth option,19.71,70.8,24,6,12.9,15.63
+May 2025,Large Cap,Mirae Asset Large Cap Fund,16.16,70.8,23,6,15.63,-14.73
+May 2025,Mid Cap,Edelweiss Mid Cap Fund,30.98,79.2,24,6,22.94,-2.82
+May 2025,Mid Cap,Mirae Asset Midcap Fund- Direct Growth Option,22.88,70.8,23,6,32.66,7.5
+May 2025,Small Cap,Edelweiss Small Cap Fund,24.59,70.8,24,6,24.08,10.54
+May 2025,Small Cap,BANDHAN SMALL CAP FUND - DIRECT PLAN GROWTH,9.24,63.6,11,6,18.26,7.36
+May 2025,Flexi Cap,HDFC Flexi Cap Fund,30.14,76.2,20,6,15.48,-15.39
+May 2025,Flexi Cap,WhiteOak Capital Flexi Cap Fund Direct Plan-Growth,22.87,84.2,19,6,19.15,15.73
+May 2025,Multi Cap,WhiteOak Capital Multi Cap Fund Direct Plan Growth,26.27,77.8,18,6,25.83,
+May 2025,Multi Cap,Edelweiss Multi Cap Fund,25.13,73.7,18,6,18.75,-3.45
+May 2025,Large & Mid Cap,HDFC Large and Mid Cap Fund,27.08,76.2,20,6,19.61,-68.43
+May 2025,Large & Mid Cap,Edelweiss Large & Mid Cap Fund,23.37,83.3,24,6,19.37,21.81
+May 2025,Focused,Edelweiss Focused Fund,22.77,75.0,24,6,14.61,5.28
+May 2025,Focused,SBI FOCUSED FUND - DIRECT PLAN -GROWTH,18.53,70.8,23,6,23.04,-4.21
+May 2025,Value / Contrarian,SBI CONTRA FUND - DIRECT PLAN - GROWTH,23.58,70.8,23,6,15.29,8.72
+May 2025,Value / Contrarian,Quant Value Fund ,10.76,54.5,22,6,8.72,-3.78
+May 2025,Tax Saver (ELSS),WhiteOak Capital ELSS Tax Saver Fund Direct Plan Growth,27.52,85.0,20,6,19.24,13.6
+May 2025,Tax Saver (ELSS),Sundaram ELSS Tax Saver Fund Direct Plan Growth,35.59,75.0,8,0,,-12.43
+May 2025,Thematic / Sectoral,SBI HEALTHCARE OPPORTUNITIES FUND - DIRECT PLAN -GROWTH,32.11,75.0,23,6,16.29,-6.31
+May 2025,Thematic / Sectoral,HDFC Housing Opportunities Fund ,24.94,70.0,20,6,17.77,4.37
+May 2025,Balanced Advantage,WhiteOak Capital Balanced Advantage Fund Direct Plan Growth,19.09,85.0,20,5,7.8,-10.53
+May 2025,Balanced Advantage,HDFC Balanced Advantage Fund Plan,22.77,76.2,20,6,12.03,-11.44
+May 2025,Hybrid,Edelweiss Aggressive Hybrid Fund-Direct Plan-Growth Option,21.51,79.2,24,6,13.89,0.9
+May 2025,Hybrid,HDFC Hybrid Equity Fund,17.4,76.2,20,6,10.52,13.89
+Jul 2025,Large Cap,Edelweiss Large Cap Fund-Growth option,20.66,73.1,26,6,5.24,7.71
+Jul 2025,Large Cap,Mirae Asset Large Cap Fund,17.64,73.1,25,6,7.71,7.91
+Jul 2025,Mid Cap,Edelweiss Mid Cap Fund,33.82,80.8,26,6,3.26,-1.96
+Jul 2025,Mid Cap,Mirae Asset Midcap Fund- Direct Growth Option,26.74,73.1,25,6,10.65,-1.96
+Jul 2025,Small Cap,Edelweiss Small Cap Fund,28.5,73.1,26,6,-2.33,-13.87
+Jul 2025,Small Cap,BANDHAN SMALL CAP FUND - DIRECT PLAN GROWTH,14.67,69.2,13,6,-1.45,-2.35
+Jul 2025,Flexi Cap,HDFC Flexi Cap Fund,29.59,78.3,22,6,8.06,0.02
+Jul 2025,Flexi Cap,WhiteOak Capital Flexi Cap Fund Direct Plan-Growth,25.01,85.7,21,6,3.97,9.05
+Jul 2025,Multi Cap,WhiteOak Capital Multi Cap Fund Direct Plan Growth,29.45,80.0,20,6,5.74,-0.92
+Jul 2025,Multi Cap,Edelweiss Multi Cap Fund,27.86,76.2,20,6,2.6,4.3
+Jul 2025,Large & Mid Cap,HDFC Large and Mid Cap Fund,29.14,78.3,22,6,2.9,9.24
+Jul 2025,Large & Mid Cap,Edelweiss Large & Mid Cap Fund,25.76,84.6,26,6,5.65,2.9
+Jul 2025,Focused,Edelweiss Focused Fund,24.12,76.9,26,6,3.77,4.69
+Jul 2025,Focused,SBI FOCUSED FUND - DIRECT PLAN -GROWTH,20.54,73.1,25,6,14.71,1.71
+Jul 2025,Value / Contrarian,SBI CONTRA FUND - DIRECT PLAN - GROWTH,24.21,73.1,25,6,8.83,5.12
+Jul 2025,Value / Contrarian,Quant Value Fund ,11.87,58.3,24,6,4.35,7.44
+Jul 2025,Tax Saver (ELSS),WhiteOak Capital ELSS Tax Saver Fund Direct Plan Growth,29.62,86.4,22,6,2.09,8.0
+Jul 2025,Tax Saver (ELSS),Sundaram ELSS Tax Saver Fund Direct Plan Growth,35.59,75.0,8,0,,-3.04
+Jul 2025,Thematic / Sectoral,SBI HEALTHCARE OPPORTUNITIES FUND - DIRECT PLAN -GROWTH,31.01,73.1,25,6,4.52,
+Jul 2025,Thematic / Sectoral,HDFC Housing Opportunities Fund ,26.97,72.7,22,6,-2.84,-8.81
+Jul 2025,Balanced Advantage,HDFC Balanced Advantage Fund Plan,23.13,78.3,22,6,4.74,5.05
+Jul 2025,Balanced Advantage,WhiteOak Capital Balanced Advantage Fund Direct Plan Growth,19.44,85.7,21,6,4.82,5.27
+Jul 2025,Hybrid,Edelweiss Aggressive Hybrid Fund-Direct Plan-Growth Option,22.6,80.8,26,6,3.18,4.84
+Jul 2025,Hybrid,Sundaram Multi Asset Allocation Fund Direct Plan Growth,18.96,76.5,16,6,17.46,7.21
+Sep 2025,Large Cap,Edelweiss Large Cap Fund-Growth option,17.38,67.9,28,6,11.17,-5.98
+Sep 2025,Large Cap,Mirae Asset Large Cap Fund,15.22,67.9,27,6,5.31,8.95
+Sep 2025,Mid Cap,Edelweiss Mid Cap Fund,29.37,75.0,28,6,10.15,0.75
+Sep 2025,Mid Cap,SBI MIDCAP FUND - DIRECT PLAN - GROWTH,18.23,71.4,27,6,10.65,10.24
+Sep 2025,Small Cap,Edelweiss Small Cap Fund,24.6,67.9,28,6,0.46,-9.03
+Sep 2025,Small Cap,Tata Small Cap Fund-Direct Plan-Growth,11.55,64.3,28,6,-23.7,1.45
+Sep 2025,Flexi Cap,HDFC Flexi Cap Fund,26.47,76.0,24,6,9.77,-11.94
+Sep 2025,Flexi Cap,WhiteOak Capital Flexi Cap Fund Direct Plan-Growth,21.3,78.3,23,6,2.12,12.01
+Sep 2025,Multi Cap,WhiteOak Capital Multi Cap Fund Direct Plan Growth,25.6,72.7,22,6,3.43,-0.96
+Sep 2025,Multi Cap,HDFC Multi Cap Fund,23.42,68.0,24,6,2.44,
+Sep 2025,Large & Mid Cap,Edelweiss Large & Mid Cap Fund,21.9,78.6,28,6,10.66,6.45
+Sep 2025,Large & Mid Cap,HDFC Large and Mid Cap Fund,24.55,72.0,24,6,7.11,-7.32
+Sep 2025,Focused,Edelweiss Focused Fund,20.6,71.4,28,6,12.63,-2.95
+Sep 2025,Focused,SBI FOCUSED FUND - DIRECT PLAN -GROWTH,17.8,67.9,27,6,15.97,
+Sep 2025,Value / Contrarian,SBI CONTRA FUND - DIRECT PLAN - GROWTH,21.25,67.9,27,6,10.41,5.53
+Sep 2025,Value / Contrarian,Quant Value Fund ,10.82,57.7,26,6,5.53,10.41
+Sep 2025,Tax Saver (ELSS),Sundaram ELSS Tax Saver Fund Direct Plan Growth,35.59,75.0,8,0,,8.14
+Sep 2025,Tax Saver (ELSS),WhiteOak Capital ELSS Tax Saver Fund Direct Plan Growth,25.53,79.2,24,6,-0.63,12.98
+Sep 2025,Thematic / Sectoral,SBI HEALTHCARE OPPORTUNITIES FUND - DIRECT PLAN -GROWTH,30.15,75.0,27,6,3.64,5.52
+Sep 2025,Thematic / Sectoral,Edelweiss Recently Listed IPO Fund Direct Plan Growth,19.24,77.3,22,6,-8.64,-26.74
+Sep 2025,Balanced Advantage,HDFC Balanced Advantage Fund Plan,19.72,72.0,24,6,8.43,8.56
+Sep 2025,Balanced Advantage,WhiteOak Capital Balanced Advantage Fund Direct Plan Growth,16.87,78.3,23,6,4.17,8.3
+Sep 2025,Hybrid,Edelweiss Aggressive Hybrid Fund-Direct Plan-Growth Option,19.75,75.0,28,6,6.0,3.62
+Sep 2025,Hybrid,Edelweiss Equity Savings Fund,12.86,85.7,28,6,6.98,6.0
+Nov 2025,Large Cap,Edelweiss Large Cap Fund-Growth option,18.35,70.0,30,6,-7.89,-9.32
+Nov 2025,Large Cap,Mirae Asset Large Cap Fund,16.05,70.0,29,6,-9.53,-7.89
+Nov 2025,Mid Cap,Edelweiss Mid Cap Fund,29.37,76.7,30,6,3.3,17.79
+Nov 2025,Mid Cap,Mirae Asset Midcap Fund- Direct Growth Option,24.9,70.0,29,6,0.15,4.08
+Nov 2025,Small Cap,Edelweiss Small Cap Fund,24.48,70.0,30,6,0.92,-14.69
+Nov 2025,Small Cap,BANDHAN SMALL CAP FUND - DIRECT PLAN GROWTH,12.43,70.6,17,6,4.02,0.92
+Nov 2025,Flexi Cap,HDFC Flexi Cap Fund,26.76,77.8,26,6,-9.72,-6.76
+Nov 2025,Flexi Cap,WhiteOak Capital Flexi Cap Fund Direct Plan-Growth,21.98,80.0,25,6,-6.76,-5.12
+Nov 2025,Multi Cap,WhiteOak Capital Multi Cap Fund Direct Plan Growth,26.16,75.0,24,6,-4.14,-1.31
+Nov 2025,Multi Cap,HDFC Multi Cap Fund,24.0,70.4,26,6,-9.59,6.26
+Nov 2025,Large & Mid Cap,Edelweiss Large & Mid Cap Fund,22.57,80.0,30,6,-0.2,6.65
+Nov 2025,Large & Mid Cap,HDFC Large and Mid Cap Fund,25.35,74.1,26,6,-7.36,-3.05
+Nov 2025,Focused,Edelweiss Focused Fund,21.14,73.3,30,6,-3.88,-9.11
+Nov 2025,Focused,SBI FOCUSED FUND - DIRECT PLAN -GROWTH,19.46,70.0,29,6,12.19,-2.06
+Nov 2025,Value / Contrarian,SBI CONTRA FUND - DIRECT PLAN - GROWTH,21.87,70.0,29,6,-7.32,7.5
+Nov 2025,Value / Contrarian,Quant Value Fund ,10.32,57.1,28,6,7.5,5.66
+Nov 2025,Tax Saver (ELSS),Sundaram ELSS Tax Saver Fund Direct Plan Growth,35.59,75.0,8,0,,-5.29
+Nov 2025,Tax Saver (ELSS),WhiteOak Capital ELSS Tax Saver Fund Direct Plan Growth,25.61,80.8,26,6,-7.85,-0.46
+Nov 2025,Thematic / Sectoral,SBI HEALTHCARE OPPORTUNITIES FUND - DIRECT PLAN -GROWTH,28.84,73.3,29,6,4.31,0.24
+Nov 2025,Thematic / Sectoral,HDFC Housing Opportunities Fund ,23.29,69.2,26,6,-6.8,-16.0
+Nov 2025,Balanced Advantage,HDFC Balanced Advantage Fund Plan,20.29,74.1,26,6,-4.49,-1.44
+Nov 2025,Balanced Advantage,WhiteOak Capital Balanced Advantage Fund Direct Plan Growth,17.14,80.0,25,6,-3.88,3.58
+Nov 2025,Hybrid,Edelweiss Aggressive Hybrid Fund-Direct Plan-Growth Option,19.99,76.7,30,6,-2.12,-0.24
+Nov 2025,Hybrid,Edelweiss Equity Savings Fund,13.01,86.7,30,6,3.85,3.59

@@ -1,0 +1,719 @@
+ <!DOCTYPE html> <html lang="en"> <head> <title>
+	Error
+</title> <meta charset="utf-8" /> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="robots" content="index, follow" /> <meta name="robots" content="noodp,noydir" /> <meta name="referrer" content="origin" /> <meta name="google-site-verification" content="5_BuDc1XQZtP8fW-ha5F2SVn3QUZPOWAxbsrOWIzyHY" /> <!-- Google Tag Manager --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16586856125"></script> <script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		  gtag('config', 'AW-16586856125');
+		</script> <script>
+    (function (w, d, s, l, i) {
+                w[l] = w[l] || []; w[l].push({
+                    'gtm.start':
+                        new Date().getTime(), event: 'gtm.js'
+                }); var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-M5XQ5GN');</script> <!-- End Google Tag Manager --> <!--01122025--> <script>var nv=nv||function(){(window.nv.q=window.nv.q||[]).push(arguments)};nv.l=new Date;var notify_visitors=notify_visitors||function(){var t={initialize:!1,ab_overlay:!1,async:!0,on_load:!1,auth:{bid_e:"113194076D71796D7B3973BAF6DF85B4",bid:"14759",t:"420"}};return t.data={bid_e:t.auth.bid_e,bid:t.auth.bid,t:t.auth.t,iFrame:window!==window.parent,trafficSource:document.referrer,link_referrer:document.referrer,pageUrl:document.location,path:location.pathname,domain:location.origin,gmOffset:60*(new Date).getTimezoneOffset()*-1,screenWidth:screen.width,screenHeight:screen.height,isPwa:window.matchMedia&&window.matchMedia("(display-mode: standalone)").matches?1:0},t.options=function(e){if(t._option={ab_overlay:!1,async:!0,on_load:!1,cookie_domain:null},e&&"object"==typeof e)for(var n in t._option)void 0!==e[n]&&(t[n]=e[n]);else console.log("Not a valid option")},t.tokens=function(e){t.data.tokens=e&&"object"==typeof e?JSON.stringify(e):""},t.ruleData=function(e){t.data.ruleData=e&&"object"==typeof e?JSON.stringify(e):""},t.cookies=function(e){t.data.cookies=e&&(Array.isArray(e)||"all"===e)?e:[]},t.getParams=function(e){var url=window.location.href.toLowerCase(),e=e.replace(/[\[\]]/g,"\\$&").toLowerCase();var t=new RegExp("[?&]"+e+"(=([^&#]*)|&|#|$)").exec(url);return t&&t[2]?decodeURIComponent(t[2].replace(/\+/g," ")):""},t.init=function(){if("complete"!=document.readyState&&t.on_load){if(window.addEventListener)window.addEventListener("load",t._init);else if(window.attachEvent)return window.attachEvent("onload",t._init)}else t._init()},t._init=function(){if(t.auth&&!t.initialize&&(t.data.storage=t.browserStorage(),t.data.cookieData=t.filterCookies(t.data.cookies),t.cookie_domain&&(t.data.cookieDomain=t.cookie_domain),t.js_callback="nv_json1",!t.data.iFrame&&"noapi"!==t.getParams("nvcheck"))){var n="?";if(t.ab_overlay){var o=document.createElement("style"),i="body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}",a=document.getElementsByTagName("head")[0];o.setAttribute("id","_nv_hm_hidden_element"),o.setAttribute("type","text/css"),o.styleSheet?o.styleSheet.cssText=i:o.appendChild(document.createTextNode(i)),a.appendChild(o),setTimeout(function(){var t=this.document.getElementById("_nv_hm_hidden_element");if(t)try{t.parentNode.removeChild(e)}catch(e){t.remove()}},2e3)}for(var r in t.data)t.data.hasOwnProperty(r)&&(n+=encodeURIComponent(r)+"="+encodeURIComponent(t.data[r])+"&");t.load("https://ext-api.notifyvisitors.com/ext/v1/settings"+n),t.initialize=!0}},t.browserStorage=function(){var e={session:t.storage("sessionStorage"),local:t.storage("localStorage")};return JSON.stringify(e)},t.storage=function(e){var t={};return window[e]&&window[e].length>0&&Object.keys(window[e]).forEach(function(n){-1!==n.indexOf("_nv_")&&(t[n]=window[e][n])}),t},t.filterCookies=function(e){e=e||[];var t=[];if(document&&document.cookie){var n=document.cookie.split(";");"all"===e&&(t=n),Array.isArray(e)&&n&&n.length>0&&(t=n.filter(function(t){var n=t.trim().split("=")[0];return-1!==e.indexOf(n)||0===n.indexOf("_nv_")}))}return t.join(";")},t.load=function(e){var n=document,o=n.createElement("script");o.type="text/javascript",o.async=t.async,o.src=e,n.body?n.body.appendChild(o):n.head.appendChild(o)},t}();    notify_visitors.options({      ab_overlay: false,    on_load: false   });notify_visitors.init();</script> <!--01122025--> <!-- Meta Pixel Code --> <script>
+					!function(f,b,e,v,n,t,s)
+					{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+					n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+					if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+					n.queue=[];t=b.createElement(e);t.async=!0;
+					t.src=v;s=b.getElementsByTagName(e)[0];
+					s.parentNode.insertBefore(t,s)}(window, document,'script',
+					'https://connect.facebook.net/en_US/fbevents.js');
+					fbq('init', '445637235021840');
+					fbq('track', 'PageView');
+					</script> <noscript><img height="1" width="1" style="display:none"
+					src="https://www.facebook.com/tr?id=445637235021840&ev=PageView&noscript=1"
+					/></noscript> <!-- End Meta Pixel Code --> <script type="text/javascript" src="https://anuvadak.in/api/snippet/bundle/file"></script> <script type="text/javascript">anuvadak({ project: { key: "c1be5b20-6eb1-4a40-b1b7-8ba51898eff1" }, customWidget: false,});
+				</script> <!-- Facebook Pixel Code --> <script>
+            !function (f, b, e, v, n, t, s) {
+                if (f.fbq) return; n = f.fbq = function () {
+                    n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                };
+                if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+                n.queue = []; t = b.createElement(e); t.async = !0;
+                t.src = v; s = b.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t, s)
+            }(window, document, 'script',
+                'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '2643948122547556');
+            fbq('track', 'PageView');
+        </script> <noscript> <img height="1" width="1" style="display:none"
+                 src="https://www.facebook.com/tr?id=2643948122547556&ev=PageView&noscript=1" /> </noscript> <!-- End Facebook Pixel Code --> <!-- Facebook Pixel Code --> <script>
+            !function (f, b, e, v, n, t, s) {
+                if (f.fbq) return; n = f.fbq = function () {
+                    n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                };
+                if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+                n.queue = []; t = b.createElement(e); t.async = !0;
+                t.src = v; s = b.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t, s)
+            }(window, document, 'script',
+                'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '391661145351233');
+            fbq('track', 'PageView');
+        </script> <noscript> <img height="1" width="1" style="display:none"
+                 src="https://www.facebook.com/tr?id=391661145351233&ev=PageView&noscript=1" /> </noscript> <!-- End Facebook Pixel Code --> <script src='//cdnt.netcoresmartech.com/smartechclient.js'></script> <script>
+            smartech('create', 'ADGMOT35CHFLVDHBJNIG50K9683PG5GNDASCPOQDM5P94VGC4900');
+            smartech('register', '0ebc80380e194934c8810114060dea4b');
+            smartech('identify', '');
+            smartech('dispatch', 1, {});
+        </script> <!-- Global site tag (gtag.js) - Google Ads: 609707166 --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-609707166"></script> <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'AW-609707166');
+        </script> <script async src=https://www.googletagmanager.com/gtag/js?id=DC-15566960></script> <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'DC-15566960');
+        </script> <script>
+          gtag('event', 'conversion', {
+            'allow_custom_scripts': true,
+            'u1': '[Page URL]',
+            'send_to': 'DC-15566960/sitew0/ls_mi0+unique'
+          });
+        </script> <noscript> <img src=https://ad.doubleclick.net/ddm/activity/src=15566960;type=sitew0;cat=ls_mi0;u1=[Page URL];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ord=1;num=1? width="1" height="1" alt=""/> </noscript> <base href="/" /> <link rel="shortcut icon" href="/img/favicon.png" type="image/png" /> <link href='/main.css?v=4VeNPwLC3ygJ8QFqVqD3EGwNazxjbhBSE7xGTrLJtQA1' type='text/css' rel='stylesheet' /> <style>
+            /*.ui-autocomplete {
+                max-height: 200px;
+                overflow-y: auto;
+                overflow-x: hidden;
+                font-size: 12px;
+                z-index: 100000;
+            }*/
+        </style>  <link rel="preload" as="style" href="/css/disable-feature.css" type="text/css" /> <link href="/css/disable-feature.css" rel="stylesheet" type="text/css" /><link href="/css/developer.css" rel="stylesheet" type="text/css" /><link href="/css/accessibility.css" rel="stylesheet" type="text/css" /><link href="/css/newguideline.css" rel="stylesheet" type="text/css" /> <!--<script type="application/ld+json">
+            {
+            "@context": "https://schema.org",
+            "@type": "Corporation",
+            "name": "Mirae Asset",
+            "alternateName": "Mirae Asset",
+            "url": "/",
+            "logo": "/images/default-source/default-album/logo.png",
+            "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+9118002090777",
+            "contactType": "customer service",
+            "contactOption": "TollFree",
+            "areaServed": "IN",
+            "availableLanguage": "en"
+            },
+            "sameAs": [
+            "https://www.facebook.com/MiraeAssetIN/",
+            "https://twitter.com/MiraeAsset_IN",
+            "https://www.youtube.com/c/MiraeAssetIndia",
+            "https://www.linkedin.com/company/mirae-asset-global-investments/"
+            ]
+            }
+        </script>
+
+        <script type="application/ld+json">
+            {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "url": "/",
+            "potentialAction": [{
+            "@type": "SearchAction",
+            "target": "/restapi/search/suggestions?IndexName=ixmiraesitesearch&SuggestionFields=Title,Content&Text={search_term_string}",
+            "query-input": "required name=search_term_string"
+            }]
+            }
+        </script>--> <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit"></script> <script type="text/javascript">var sf_appPath='/';</script><html class="accessibility newguidelineWrap"><script type="text/javascript" src="/js/jquery-3.6.4.min.js"></script><script type="text/javascript" src="/js/showmore.js"></script><script type="text/javascript" src="//cdnt.netcoresmartech.com/smartechclient.js"></script><script type="text/javascript" src="/js/GoogleTagData.js"></script><link href="/css/whatsappsms.css" media="all" rel="stylesheet" type="text/css" /><style type="text/css" media="all">.etf-website{
+background: linear-gradient(270deg, #f58220, #BB6653);
+            background-size: 600% 600%;
+            animation: gradientMove 4s ease infinite;
+            transition: all 0.5s ease;
+            position: relative;
+}
+.etf-website:before {
+    content: '';
+    position: absolute;
+    left: -12px;
+    top: -15px;
+    transform: rotate(-41deg);
+    width: 55px;
+    height: 30px;
+    background-image: url(/images/default-source/audio/new-label.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+@keyframes gradientMove {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+ .glow {
+                    animation: glow 1s ease-in-out infinite alternate;
+                }
+
+                @-webkit-keyframes glow {
+                    0% {
+                        text-shadow: 0 0 0px #fff, 0 0 10px #f58222, 0 0 15px #fff, 0 0 20px #f58222, 0 0 25px #fff, 0 0 100px #fff;
+                        color: #fff;
+                    }
+                }</style><link href="/css/showmore.css" media="all" rel="stylesheet" type="text/css" /><meta name="Generator" content="Sitefinity 11.0.6701.0 SE" /><link rel="canonical" href="https://www.miraeassetmf.co.in/error" /></head> <body data-spy="scroll" data-target=".topSec" data-offset="50"> <!-- Google Tag Manager (noscript) --> <noscript> <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M5XQ5GN"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe> </noscript> <!-- End Google Tag Manager (noscript) --> <!--<div class="loader">
+        <div class="item-1"></div>
+        <div class="item-2"></div>
+        <div class="item-3"></div>
+        <div class="item-4"></div>
+        <div class="item-5"></div>
+    </div>--> <input type="hidden" value="Idealake Information Technologies Pvt. Ltd." />  
+
+
+<div >
+    <div ><!-- top nav start -->
+<div class="fixed-top"><div class="topStrip"><div class="container"><div class="row"><div class="col-md-12"><ul><li><a href="javascript:void(0)" class="mainContentWrap">Skip to Main Content</a></li><!-- <li class="readerAccess"> <a href="#mainContentWrap">Screen Reader Access</a></li> -->
+ <li class="fontResize"><div class="textResizeWrapper" id="accessControl"><input class="fontScaler smallFont" type="submit" value="A-" title="Decrease Font Size" /><input class="fontScaler normalFont current" type="submit" value="A" title="Normal Font Size" /><input class="fontScaler largeFont" type="submit" value="A+" title="Increase Font Size" /></div></li><li class="fontResize"><div class="textResizeWrapper" id="accessControl"><div class="contrastView"><input class="contrastChanger normal" type="submit" value="A" title="Standard View" /><input class="contrastChanger wob" type="submit" value="A" title="High Contrast View" /></div></div></li></ul></div></div></div></div><!-- top nav ends -->
+ <div id="desktop-top-menu" class="topSec"><div class="container"><div class="row"><div class="col-lg-4 col-md-5 col-sm-5"><a class="navbar-brand" href="/"><img alt="mirae asset Mutual Fund logo to homepage" class="logo" type="image/jpeg" src="/images/default-source/default-album/mirae-asset-mutual-fund-logo.png" /></a>
+ </div><div class="col-lg-8 col-md-7 col-sm-7 text-end"><ul class="topBar"><li class="nav-item"><a class="nav-link loginHeaderBtn etf-website glow" id="login" href="https://miraeassetetf.co.in/" target="_blank"><img alt="logo" src="/images/default-source/default-album/whiteusericon.png" height="16" width="16" />ETF Website</a>
+ </li><li class="nav-item"><a class="nav-link loginHeaderBtn" id="login" href="https://transact.miraeassetmf.co.in/" target="_blank"><img alt="logo" src="/images/default-source/default-album/whiteusericon.png" />Invest Now </a>
+ </li><li class="nav-item"><a class="nav-link loginHeaderBtn etf-website glow" id="login" href="https://platinumsif.miraeassetmf.co.in" target="_blank"><img alt="logo" src="/images/default-source/default-album/whiteusericon.png" height="16" width="16" />SIF Website</a>
+ </li><!-- <li><a class="loginHeaderBtn" id="kyc" href="https://transact.miraeassetmf.co.in/" target="_blank"><img alt="Online e-KYC" src="/images/default-source/default-album/whiteusericon.png" />Online e-KYC </a>
+                        </li> -->
+ <li><a href="/contact-us">Contact Us</a></li><li><a href="javascript:void(0);" class="globalBtn">Global Offices<img alt="dropArrow for Global Offices" src="/images/default-source/default-album/droparrowea9493a23ebb40029ee37780e3cd2cdc.gif" type="image/png" /></a> </li><div class="globalBox clearfix"><span class="globalHeading space"><a href="http://www.miraeasset.com/" target="_blank" style="float:none;">Mirae Asset Financial Group</a></span>
+ <div class="boxOne boxOneFirst"><span class="globalHeading">Mirae Asset Global Investments</span>
+ <a href="https://www.am.miraeasset.com/" target="_blank" class="nameRow"><img class="lazyCont" alt="mirae asset india" width="25px" data-src="/images/default-source/default-album/globallogo.png" /><span class="xxx">Global</span></a>
+ <a href="https://www.am.miraeasset.com.au/" target="_blank" class="nameRow"><img class="lazyCont" alt="mirae asset australia" data-src="/images/default-source/default-album/austra.jpg" /><span class="xxx">Australia</span></a>
+ <a href="https://www.am.miraeasset.com.hk/" target="_blank" class="nameRow"><img class="lazyCont" alt="mirae asset hong kong" data-src="/images/default-source/default-album/hongkong.jpg" /><span class="xxx">Hong Kong SAR</span></a>
+ <a href="https://www.miraeassetmf.co.in/" target="_blank" class="nameRow"><img class="lazyCont" alt="mirae asset india" data-src="/images/default-source/default-album/india.jpg" /><span class="xxx">India</span></a>
+ <a href="https://investments.miraeasset.com/" target="_blank" class="nameRow"><img class="lazyCont borderWrap" alt="mirae asset korea" data-src="/images/default-source/default-album/south-korea-flag---2kb.jpg" /><span class="xxx">Korea</span></a>
+ <a href="#" target="_blank" class="nameRow"><img class="lazyCont borderWrap" alt="mirae asset korea" data-src="/images/default-source/default-album/uae.jpg" /><span class="xxx">UAE</span></a>
+ <a href="http://investments.miraeasset.eu/" target="_blank" class="nameRow"><img class="lazyCont" alt="mirae asset uk" data-src="/images/default-source/default-album/united.jpg" /><span class="xxx">United Kingdom</span></a>
+ <a href="http://investments.miraeasset.us/" target="_blank" class="nameRow"><img class="lazyCont" alt="mirae asset usa" data-src="/images/default-source/default-album/usa.jpg" /><span class="xxx">United States</span></a>
+ <a href="http://www.fundmanagement-miraeasset.com.vn/" target="_blank" class="nameRow"><img class="lazyCont" alt="mirae asset vietnam" data-src="/images/default-source/default-album/vietnam.png" /><span class="xxx">Vietnam </span></a>
+ <!-- <h2>ETF Securities</h2><a href="https://www.etfsecurities.com.au/" target="_blank" class="nameRow"><img class="lazyCont" alt="mirae asset australia" data-src="/images/default-source/default-album/austra.jpg" /><span class="xxx">Australia</span></a> -->
+ <h2>Tiger ETF</h2><a href="https://www.tigeretf.com/en/main/index.do" target="_blank" class="nameRow"><img class="lazyCont borderWrap" alt="mirae asset korea" data-src="/images/default-source/default-album/south-korea-flag---2kb.jpg" /><span class="xxx">Korea</span></a>
+ </div><div class="boxOne"><h2>Global X ETFs</h2><!-- <a href="https://www.globalxetfs.com.cn/" target="_blank" class="nameRow"><img class="lazyCont" alt="mirae asset China" width="25px" data-src="/images/default-source/default-album/china-flag.jpg?sfvrsn=6a9f60a9_2" src="/images/default-source/default-album/china-flag.jpg?sfvrsn=6a9f60a9_2" /><span class="xxx">China</span></a> -->
+ <a href="https://www.globalxetfs.com.au/" target="_blank" class="nameRow"><img class="lazyCont" alt="mirae asset usa" data-src="/images/default-source/default-album/austra.jpg" /><span class="xxx">Australia</span></a>
+ <a href="https://globalxetfs.com.br/" target="_blank" class="nameRow"><img class="lazyCont" alt="mirae asset brazil" data-src="/images/default-source/default-album/brazil.jpg" /><span class="xxx">Brazil</span></a>
+ <a href="https://globalxetfs.co/en/" target="_blank" class="nameRow"><img class="lazyCont" alt="mirae asset colombia" data-src="/images/default-source/default-album/colombia.jpg" /><span class="xxx">Colombia</span></a>
+ <a href="http://www.globalxetfshk.com/en" target="_blank" class="nameRow"><img class="lazyCont" alt="mirae asset hong kong" data-src="/images/default-source/default-album/hongkong.jpg" /><span class="xxx">Hong Kong SAR</span></a>
+ <a href="https://globalxetfs.co.jp/en/" target="_blank" class="nameRow"><img class="lazyCont borderWrap" alt="mirae asset Japan" data-src="/images/default-source/default-album/japan-flag.jpg" /><span class="xxx">Japan</span></a>
+ <a href="https://globalxetfs.eu/uk/" target="_blank" class="nameRow"><img class="lazyCont" alt="mirae asset uk" data-src="/images/default-source/default-album/united.jpg" /><span class="xxx">United Kingdom</span></a>
+ <a href="https://www.globalxfunds.com/" target="_blank" class="nameRow"><img class="lazyCont" alt="mirae asset usa" data-src="/images/default-source/default-album/usa.jpg" /><span class="xxx">United States</span></a>
+ <a href="https://www.globalxetfs.sg/" target="_blank" class="nameRow"><img class="lazyCont" alt="mirae asset singapore" data-src="/images/default-source/default-album/singapore.png" /><span class="xxx">Singapore</span></a>
+ <a href="https://globalxetfs.eu/" target="_blank" class="nameRow"><img class="lazyCont" alt="mirae asset uk" data-src="/images/default-source/default-album/ireland.png" /><span class="xxx">Ireland</span></a>
+ <a href="https://www.globalx.ca/" target="_blank" class="nameRow"><img class="lazyCont" alt="mirae asset canada" data-src="/images/default-source/default-album/canada.jpg" /><span class="xxx">Canada</span></a>
+ <!-- <h2>Horizons ETFs</h2><a href="https://www.horizonsetfs.com/" target="_blank" class="nameRow"><img class="lazyCont" alt="mirae asset canada" data-src="/images/default-source/default-album/canada.jpg" /><span class="xxx">Canada</span></a> -->
+ <!-- <a href="https://www.horizonsetfs.com.hk/" target="_blank" class="nameRow"><img class="lazyCont" alt="mirae asset hongkong" data-src="/images/default-source/default-album/hongkong.jpg" /><span class="xxx">Hong kong SAR</span></a>-->
+ <!-- <h2>Betashares ETF</h2>
+                                <a href="https://www.betashares.com.au/" target="_blank" class="nameRow"><img class="lazyCont" alt="mirae asset australia" data-src="/images/default-source/default-album/austra.jpg" /><span class="xxx">Australia</span></a>
+                                                                                        -->
+ </div></div></ul><div class="search-box2"><div class="searchOpen"><a href="Javascript:void(0)"><img alt="search" src="/images/default-source/default-album/search1.png" width="22" height="22" /></a>
+ </div><div class="searchAppear"><input type="text" class="searchField customsearch" placeholder="Search" aria-label="Search can close on Esc" /><button type="button" class="submitBtn" id="searchClick"><span class="sr-only">submitBtn</span></button></div></div></div></div></div><nav id="desktop-menu" class="navbar navbar-expand-lg bg-dark navbar-light"><div class="container"><!--<a class="navbar-brand" href="javascript:void(0);"></a>-->
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+ <span class="navbar-toggler-icon nav-icon2"><span class="abc"></span><span class="abc"></span><span class="abc"></span><span class="abc"></span><span class="abc"></span><span class="abc"></span></span>
+ </button><div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02"><ul class="navbar-nav"><li class="nav-item parent-nav"><a class="nav-link" href="about-us">About Us <span class="sr-only">(current)</span></a>
+ <div class="sub-nav"><div class="container"><div class="row"><div class="col-md-12"><div class="row"><div class="col-md-3"><h4>Mirae Asset</h4><ul><li><a href="/about-us" class="headerlink">About Us Global</a></li><li><a href="/about-us#india" class="headerlink" id="liAboutUsIndia">About Us India</a></li><li><a href="https://india.miraeasset.org/" class="headerlink" target="_blank" id="liMiraeAssetFoundation">Mirae Asset Foundation</a></li><li><a href="https://giftcity.miraeassetmf.co.in/" class="headerlink">GIFT City</a></li><li><a href="https://platinumsif.miraeassetmf.co.in/" class="headerlink">SIF</a></li><li><a href="/aif" class="headerlink">AIF</a></li><li><a href="/contact-us" class="headerlink">Contact Us</a></li><li><a href="/locate-us" class="headerlink">Locate Us</a></li><li><a href="/careers" class="headerlink">Careers</a></li><!-- <li><a href="/contact-us/career">Careers</a></li> -->
+ </ul></div><div class="col-md-9 pl-5 nav-border"><h4>Fund in Focus</h4><div class="media"><img alt="" src="/images/default-source/default-album/menuHealthcareFound.png" aria-hidden="true" /><div class="media-body"><h5 id="TaxSaverFund_3">Mirae Asset Balanced Advantage Fund</h5><p>(An open ended dynamic asset allocation fund)</p><a href="/mutual-fund-scheme/hybrid-fund/mirae-asset-balanced-advantage-fund"><i class="fa fa-angle-right" aria-hidden="true"></i>Know More</a>
+ </div></div></div></div></div></div></div></div></li><li class="nav-item parent-nav"><a class="nav-link" href="/mutual-fund-scheme">Funds and Facilities</a>
+ <div class="sub-nav"><div class="container"><div class="row"><div class="col-md-7"><div class="row"><div class="col-md-6 pr-4"><h4>All Funds and Facilities</h4><ul><li><a href="/mutual-fund-scheme" class="headerlink">Mutual Funds Scheme</a></li><li><a href="/mutual-fund-facilities" class="headerlink">Mutual Fund Facilities</a></li><li><a href="/mutual-fund-scheme/nav-update" class="headerlink">NAV Updates</a></li><li><a href="/mutual-fund-scheme/dividend-update" class="headerlink">IDCW Updates</a></li><li><a href="/choti-sip" class="headerlink">Choti SIP</a></li><!--<li><a href="/distributor/creation-of-unit-and-inav">Creation of Unit and iNAV</a></li>-->
+ </ul></div><div class="col-md-6 pl-5 nav-border"><h4>Funds by Asset Class</h4><ul><li><a href="/mutual-fund-scheme/equity-fund" class="headerlink">Equity Funds</a></li><li><a href="/mutual-fund-scheme/hybrid-fund" class="headerlink">Hybrid Funds</a></li><li><a href="/mutual-fund-scheme/fixed-income" class="headerlink">Fixed Income Funds</a></li><li><a href="https://miraeassetetf.co.in/" target="_blank" class="headerlink">ETF</a></li><li><a href="/mutual-fund-scheme/fund-of-funds" class="headerlink">FOF</a></li><li><a href="/mutual-fund-scheme/index-funds" class="headerlink">Index Funds</a></li><!--<li><a href="/mutual-fund-scheme#alternate">Alternate Funds</a></li>-->
+ <!-- <li><a href="/mutual-fund-scheme/etf-and-fof">ETF,FoF and Index Funds</a></li> -->
+ </ul></div></div></div><div class="col-md-5"><h4>Fund in Focus</h4><div class="media"><img alt="" src="/images/default-source/default-album/menuHealthcareFound.png" aria-hidden="true" /><div class="media-body"><h5 id="TaxSaverFund_3">Mirae Asset Balanced Advantage Fund</h5><p>(An open ended dynamic asset allocation fund)</p><a href="/mutual-fund-scheme/hybrid-fund/mirae-asset-balanced-advantage-fund"><i class="fa fa-angle-right" aria-hidden="true"></i>Know More</a>
+ </div></div></div><div class="col-md-12"><div class="row"><div class="col-md-5"><!-- <h4>Facilities</h4>
+                                                    <ul>
+                                                    <li><a href="/facilities/sip">Systematic Investment Plan (SIP)</a></li>
+                                                    <li><a href="/facilities/sip-top-up">Systematic Investment Plan Top up (SIP Top up)</a></li>
+                                                    <li><a href="/facilities/stp">Systematic Transfer Plan (STP)</a></li>
+                                                    <li><a href="/facilities/swp">Systematic Withdrawal Plan (SWP)</a></li>
+                                                    </ul>
+                                                    </div>
+                                                    <div class="col-md-5 pl-5">
+                                                    <h4>&nbsp;</h4>
+                                                    <ul>
+                                                    <li><a href="/facilities/swp">Systematic Withdrawal Plan (SWP)</a></li>
+                                                    <li><a href="/facilities/gsip">Goal SIP</a></li>
+                                                    <li><a href="/facilities">All Services</a></li>
+                                                    <li><a href="/facilities/trip">Trigger Investment Plan (TRIP)</a></li>
+                                                    <li><a href="/facilities/vtp">Variable Transfer Plan (VTP)</a></li>
+                                                    <li><a href="/facilities/grip">Group Investment Plan (GRIP)</a></li>
+                                                    </ul>
+                                                    </div> -->
+ </div></div></div></div></div></div></li><li class="nav-item parent-nav"><a class="nav-link" href="/knowledge-center">Knowledge Centre</a>
+ <div class="sub-nav"><div class="container"><div class="row"><div class="col-md-12"><div class="row"><!-- <div class="col-md-4 pl-4">
+                                                    <h4>Calculators</h4>
+                                                    <ul>
+                                                    <li><a href="/calculators/sip-return-calculator">SIP Return Calculator</a> </li>
+                                                    <li><a href="/calculators/stp-return-calculator">STP Return Calculator</a> </li>
+                                                    <li><a href="/calculators/swp-return-calculator">SWP Return Calculator</a> </li>
+                                                    <li><a href="/calculators/sip-top-up-calculator">SIP Top Up Calculator</a> </li>
+                                                    <li><a href="/calculators/lumpsum-returns">Lumpsum Returns Calculator</a> </li>
+                                                    <li><a href="/calculators/rolling-return-vs-benchmark">Rolling Return vs Benchmark</a> </li>
+                                                    </ul>
+                                                    </div> -->
+ <div class="col-md-3 pl-3"><h4>Goal Planner</h4><ul class="headerlink1"><li id="head_funfac"><a href="/sapna-in-progress?id=wealthCalc" class="headerlink">Wealth Creation</a> </li><li id="head_funfac"><a href="/sapna-in-progress?id=retirementCalc" class="headerlink">Retirement Planning</a> </li><li id="head_funfac"><a href="/sapna-in-progress?id=homeCalc" class="headerlink">Dream Home</a> </li><li id="head_funfac"><a href="/sapna-in-progress?id=childeducatCalc" class="headerlink">Child's Education</a> </li><li id="head_funfac"><a href="/sapna-in-progress?id=childmarrCalc" class="headerlink">Child's Marriage</a> </li><li id="head_funfac"><a href="/sapna-in-progress?id=vacationCalc" class="headerlink">Dream Vacation</a> </li></ul></div><div class="col-md-3 pl-3"><h4>Calculators</h4><ul><li><a href="/knowledge-center/risk-profiler" class="headerlink">Risk Profiler</a> </li><!-- <li><a href="/sip-calculator">SIP</a> </li> -->
+ <!-- <li><a href="/elss-fund-calculator">ELSS</a></li> -->
+ </ul></div><div class="col-md-3 pl-3"><h4>Learn</h4><ul><!--<li><a href="/learning-module" class="external-redirect nav-link">Learning Module</a> </li>-->
+ <li><a href="/knowledge-center/articles" class="external-redirect nav-link">Articles</a></li><li><a href="/glossary" class="external-redirect nav-link">Glossary</a></li><li><a href="/knowledge-center/myth-buster-creatives" class="external-redirect nav-link">Myth Busters</a></li><li><a href="/knowledge-center/did-you-know" class="external-redirect nav-link">Did You Know</a></li><li><a href="/knowledge-center/video" class="external-redirect nav-link">Videos</a></li></ul></div><div class="col-md-3  pl-3 nav-border"><ul><!--<li><a href="/campaigns/sip-mutual-funds">Systematic Investment Plan</a></li>-->
+ <li><a href="/sapna-in-progress" class="headerlink">#SapnaInProgress (SIP)</a></li><li><a href="/campaigns/balanced-advantage-fund" class="headerlink">Balanced Advantage Fund</a></li><li><a href="/campaigns/elss-tax-campaign" class="headerlink">ELSS</a></li><li><a href="/campaigns/exchange-traded-funds" class="headerlink">Exchange Traded Funds</a></li><li><a href="/campaigns/sustainable-investing" class="headerlink">ESG</a></li><li><a href="/campaigns/what-are-multicap-funds" class="headerlink">Multicap Funds</a></li><li><a href="/campaigns/women-and-investing" class="headerlink">Women and Investing</a></li><!--<li><a class="dropdown-item" href="/campaigns/what-are-hybrid-funds">Hybrid Funds</a></li>
+                                                        <li><a class="dropdown-item" href="/campaigns/asset-allocation">Asset Allocation</a></li>
+                                                        <li><a href="/campaigns/global-investing">Global Investing</a></li> -->
+ </ul></div><!-- backup
+                                                <div class="col-md-3 pl-3">
+                                                    <h4>Goal Planner</h4>
+                                                    <ul>
+                                                        <li><a href="/calculators/target-sip-calculator">Wealth Creation</a> </li>
+                                                        <li><a href="/calculators/retirement-calculator">Retirement Planning</a> </li>
+                                                        <li><a href="/calculators/dream-home-budget-calculator">Dream Home</a> </li>
+                                                        <li><a href="/calculators/child-education-plan-calculator">Child's Education</a> </li>
+                                                        <li><a href="/calculators/wedding-budget-calculator">Child's Marriage</a> </li>
+                                                        <li><a href="/calculators/travel-cost-calculator">Dream Vacation</a> </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-md-3  pl-3 nav-border"> <a href="/knowledge-center/risk-profiler" class="external-redirect nav-link">Risk Profiler</a> <a href="/knowledge-center/articles" class="external-redirect nav-link">Articles</a> <a href="/glossary" class="external-redirect nav-link">Glossary</a> <a href="/knowledge-center/myth-buster-creatives" class="external-redirect nav-link">Myth Busters</a> <a href="/knowledge-center/did-you-know" class="external-redirect nav-link">Did You Know</a> <a href="/knowledge-center/video" class="external-redirect nav-link">Videos</a> </div>
+                                                <div class="col-md-3  pl-3 nav-border">
+                                                    <ul>
+                                                        <li><a href="/campaigns/sip-mutual-funds">Systematic Investment Plan</a></li>
+                                                        <li><a href="/campaigns/elss-tax-campaign">ELSS &ndash; Tax Bachaya Kya?</a></li>
+                                                        <li><a href="/campaigns/exchange-traded-funds">Exchange Traded Funds</a></li>
+                                                        <li><a href="/campaigns/sustainable-investing">ESG</a></li>
+                                                        <li><a href="/knowledge-center/women-and-investing">Women And Investing</a></li>
+                                                        <li><a href="/campaigns/corporate-bond-iap">Corporate Bond Funds</a></li>
+                                                        <li><a href="/campaigns/sip-in-debt-iap">SIP in Debt Funds</a></li>
+                                                        <li><a class="dropdown-item" href="/campaigns/global-investing">Global Investing</a></li>
+                                                         <li><a href="/campaigns/women-and-investing">Women and Investing</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-md-3  pl-3 nav-border">
+                                                    <ul>
+                                                        <li><a href="/learning-module">Learning Module</a> </li>
+                                                    </ul>
+                                                </div>
+                                                 -->
+ </div></div></div></div></div></li><li class="nav-item parent-nav"><a class="nav-link" href="investor-hub">Investor Hub</a>
+ <div class="sub-nav"><div class="container"><div class="row"><div class="col-md-12"><div class="row"><div class="col-md-4 pl-4"><!-- <h4>Calculators</h4> -->
+ <ul><li><a href="https://transact.miraeassetmf.co.in" target="_blank" class="headerlink">Transact Online</a> </li><li><a href="https://www.mfcentral.com/" target="_blank" class="headerlink">MF Central</a> </li><li><a href="https://transact.miraeassetmf.co.in" class="headerlink">e-KYC</a> </li><li><a href="/transact-in-etf" class="headerlink">Transact in ETF</a> </li><li><a href="/investor-hub/sms-service" class="headerlink">SMS Services</a> </li><li><a href="https://transact.miraeassetmf.co.in/mnwclient/Admin/Login/Login" target="_blank" class="headerlink">Statement of A/C (SOA)</a> </li><li><a href="https://transact.miraeassetmf.co.in/investor/General/quickupdatecontactdetails.aspx" target="_blank" class="headerlink">Update Contact Details</a> </li><li><a href="/calculators/target-sip-calculator" class="headerlink">Goal Calculator</a> </li><li><a href="/knowledge-center/risk-profiler" class="headerlink">Risk Profiler</a> </li></ul></div><div class="col-md-4 pl-4 nav-border"><!--<h4>Goal Calculators</h4>-->
+ <!-- <h4>&nbsp;</h4> -->
+ <ul><li><a href="/docs/default-source/default-document-library/annexure-b.pdf" target="_blank" class="headerlink">Investor Charter</a> </li><li><a href="/grievance-redressal" class="headerlink">Grievance Redressal</a> </li><li><a href="/calculators" class="headerlink">Fund Return Calculators</a> </li><li><a href="/mutual-fund-scheme/nav-update" class="headerlink">NAV updates</a> </li><!-- <li><a  href="https://transact.miraeassetmf.co.in/investor/General/quickupdatecontactdetails.aspx" target="_blank">Update Contact details</a> </li> -->
+ <li><a target="_blank" href="https://www.cvlkra.com/Default.aspx" class="headerlink">KYC check</a> </li><li><a href="/investor-hub/check-nominee" class="headerlink">Check Nominee Details</a> </li><li><a target="_blank" href="https://mfs.kfintech.com/panupdation/" class="headerlink">Update PAN Details</a></li><li><a href="/investor-hub/transmission-of-units" class="headerlink">Transmission of Units</a></li><li><a href="/investor-hub/dematerialisation-or-rematerialisation-of-mutual-fund-units" class="headerlink">Dematerialisation or Rematerialisation of Mutual Fund Units</a></li><li><a href="/mutual-fund-scheme/dividend-update" class="headerlink">IDCW Updates</a></li><li><a href="/docs/default-source/default-document-library/sop-for-incapacitated-investor.pdf" class="headerlink">SOP for dealing with incapacitated Investors</a></li></ul></div><div class="col-md-4  pl-4 nav-border"><!-- <h4>&nbsp;</h4> -->
+ <ul><li><a href="/investor-hub/unclaimed-dividend" class="headerlink">Check Unclaimed Dividend</a> </li><li><a href="/investor-hub/unclaimed-redemption" class="headerlink">Check Unclaimed Redemption</a> </li><li><a href="/investor-hub/remuneration-disclosure" class="headerlink">Executive Remuneration Disclosure</a> </li><li><a href="/investor-hub/know-your-customer-(kyc)-procedure-and-guidelines-for-mutual-funds" class="headerlink">KYC Procedure and Guidelines for MF</a> </li><!--<li><a href="/investor-hub/investor-newsletter">Investor Newsletter</a></li>-->
+ <li><a href="/knowledge-center" class="headerlink">Learn with Mirae Asset</a></li><li><a href="/investor-hub/investor-awareness-program" class="headerlink">Investor Awarness Programme</a></li><!-- <li><a href="/knowledge-center">Knowledge Center</a> </li>
+                                                        <li><a href="/downloads/forms">Downloads</a></li>
+                                                        <li><a href="/downloads/statutory-disclosure/addendum">Regular Addendums</a></li>
+                                                        <li><a href="/downloads/market-insights">Market Insight</a></li> -->
+ <li><a href="/investor-hub/fund-manager-videos" class="headerlink">Fund and Outlook Videos</a></li><li><a href="/investor-hub/fm-station" class="headerlink">FM Station</a></li><li><a href="/docs/default-source/default-document-library/voluntary-lockin.pdf" class="headerlink">Voluntary Lock-in</a></li><!-- <li><a href="/investor-hub/sms-service">SMS Services </a></li> -->
+ </ul></div></div></div></div></div></div></li><li class="nav-item parent-nav"><a class="nav-link" href="/partner-corner">Partner Corner</a>
+ <div class="sub-nav"><div class="container"><div class="row"><div class="col-md-12"><div class="row"><div class="col-md-3 pl-4"><!-- <h4>Distributor</h4> -->
+ <ul><li><a href="https://transact.miraeassetmf.co.in/mirae_portal/login" target="_blank" class="headerlink">Distributor Initiated Transaction (DIT)</a></li><li><a href="https://transact.miraeassetmf.co.in/mirae_portal/login" target="_blank" class="headerlink">Empanel with us</a></li><!-- <li><a href="https://magiq.miraeassetmf.co.in/login-reg">MAGiQ: Mirae Asset Great India Quiz</a></li> -->
+ <!-- <li><a href="/partner-corner/cobranded-collateral">Co-Branded Collateral</a></li> -->
+ <li><a href="https://businessready.miraeassetmf.co.in/" class="headerlink">Business Ready: Cobrand Collaterals</a></li><!-- <li><a href="https://transact.miraeassetmf.co.in/miraedit/Mirae/DistributorLinkGeneration">Generate ARN link for Investors</a></li> -->
+ <!-- <li><a href="https://transact.miraeassetmf.co.in/miraedit/Mirae/RIALinkGeneration">Generate RIA Links</a></li> -->
+ <li><a href="/partner-corner/quiz-of-the-month" class="headerlink">Quiz</a></li></ul></div><div class="col-md-4 pl-4 nav-border"><!-- <h4>&nbsp;</h4> -->
+ <ul><!-- <li><a href="/partner-corner/archived-opinion-polls">Poll</a></li> -->
+ <!--<li><a href="/downloads">Downloads</a></li>-->
+ <li><a href="/partner-corner/cadre-distributors" class="headerlink">New Cadre of Distributors</a> </li><!-- <li><a href="/partner-corner/meeting-customized-requirements">Meeting customized requirements</a> </li> -->
+ <!-- <li><a href="/partner-corner/wall-of-fame">Wall Of Fame</a> </li> -->
+ <!-- <li><a href="/partner-connect">Partner Connect </a> </li> -->
+ <!-- <li><a target="_blank" href="https://camonview.com/miraeasset/">Live Webinar</a> </li> -->
+ <li><a target="_blank" href="/partner-corner/the-big-leap" class="headerlink">The Big Leap</a> </li><li><a target="_blank" href="https://t.me/+W7Ed6Ihx-dthMjk1" class="headerlink">Join us on Telegram</a> </li><li><a target="_blank" href="/docs/default-source/partner-corner/ready-reckoner-for-mfds-shared-with-amcs-(05-feb-25).pdf" class="headerlink">Ready Reckoner for MFDs</a> </li><li><a target="_blank" href="/partner-corner/distributor-handbook" class="headerlink">Distributors Handbook</a> </li><!--<li><a href="/educational-articles">IFA Articles</a> </li>-->
+ <!-- <li><a href="/investor-hub/fund-manager-videos">Videos</a> </li>
+                                                        <li><a href="/downloads/statutory-disclosure/addendum">Regular Addendums</a> </li>
+                                                        <li><a href="/downloads/market-insights">Market Insight</a> </li> -->
+ </ul></div></div></div></div></div></div></li><li class="nav-item parent-nav"><a href="/downloads/forms" class="external-redirect nav-link">Downloads</a>
+ <div class="sub-nav"><div class="container"><div class="row"><div class="col-md-12"><div class="row"><div class="col-md-3 pl-3"><a href="/downloads/forms" class="internal-redirect nav-link">Forms</a>
+ <!-- <a href="/downloads/marketing" class="internal-redirect nav-link">Marketing Collaterals</a> --><a href="/downloads/market-insights" class="internal-redirect nav-link">Market Insight</a> <a href="/downloads/press-release" class="internal-redirect nav-link">Press Release</a>
+ <!-- <ul>
+                                                    <li><a href="/downloads/forms" data-href="https://miraeassetmf.co.in/downloads/forms" data-target="_blank" class="external-redirect">Statement of additional Info (SAI)</a></li>
+                                                    <li><a href="javascript:void(0);" data-href="https://miraeassetmf.co.in/downloads/forms" data-target="_blank" class="external-redirect">Application form &amp; KIM</a></li>
+                                                    <li><a href="javascript:void(0);" data-href="https://miraeassetmf.co.in/downloads/forms" data-target="_blank" class="external-redirect">SID</a></li>
+                                                    <li><a href="javascript:void(0);" data-href="https://miraeassetmf.co.in/downloads/forms" data-target="_blank" class="external-redirect">Transaction forms</a></li>
+                                                    <li><a href="javascript:void(0);" data-href="https://miraeassetmf.co.in/downloads/forms" data-target="_blank" class="external-redirect">Service Forms</a></li>
+                                                    <li><a href="javascript:void(0);" data-href="https://miraeassetmf.co.in/downloads/forms" data-target="_blank" class="external-redirect">Know Your Client Forms</a></li>
+                                                    <li><a href="javascript:void(0);" data-href="https://miraeassetmf.co.in/downloads/forms" data-target="_blank" class="external-redirect">Third Party Declaration Forms</a></li>
+                                                    </ul> -->
+ </div><div class="col-md-3  pl-3 nav-border "><h4>Factsheet &amp; Portfolio</h4><ul class="bt-15"><li><a href="/downloads/factsheet" class="internal-redirect">Factsheet</a></li><li><a href="/downloads/portfolio" class="internal-redirect">Portfolio</a></li></ul><!--<h4><a href="https://www.miraeassetmf.co.in/downloads/marketing-collateral" target="_blank">Marketing Collaterals</a></h4>-->
+ <!-- <h4 class="mutualBtn" href="https://www.miraeassetmf.co.in/downloads/marketing-collateral" target="_blank">Marketing Collaterals</h4> -->
+ <!--<ul class="bt-15">
+                                                    <li><a href="https://www.miraeassetmf.co.in/downloads/marketing-collateral" target="_blank">Equity Funds</a></li>
+                                                    <li><a href="https://www.miraeassetmf.co.in/downloads/marketing-collateral" target="_blank">Hybrid Funds</a></li>
+                                                    <li><a href="https://www.miraeassetmf.co.in/downloads/marketing-collateral" target="_blank">Fixed Income Funds</a></li>
+                                                    <li><a href="https://www.miraeassetmf.co.in/downloads/marketing-collateral" target="_blank">Alternate Funds</a></li>
+                                                    <li><a href="https://www.miraeassetmf.co.in/downloads/marketing-collateral" target="_blank">Regional Language Marketing Collaterals</a></li>
+                                                    </ul>
+                                                    <a href="/downloads/market-insights"></a> -->
+ <!--<h4><a href="/downloads/market-insights">Market Insight</a></h4>-->
+ <!-- <h4 class="mutualBtn" href="https://www.miraeassetmf.co.in/downloads/emerging-market-insights" target="_blank">Market Insight</h4> -->
+ <!--<ul>
+                                                    <li><a href="/downloads/market-insights">Emerging market insight</a></li>
+                                                    <li><a href="/downloads/market-insights">Invest in Asia</a></li>
+                                                    </ul>-->
+ </div><div class="col-md-3  pl-3 nav-border "><h4>Regulatory</h4><ul><li><a href="/downloads/statutory-disclosure/addendum" class="internal-redirect">Addendum</a></li><li><a href="/downloads/statutory-disclosure/financials" class="internal-redirect">Financials</a></li><li><a href="/downloads/statutory-disclosure/transaction-details" class="internal-redirect">Transaction Details</a></li><li><a href="/downloads/statutory-disclosure/total-expense-ratio" class="internal-redirect">Total Expense ratio</a></li><li><a href="/downloads/statutory-disclosure/other-disclosure" class="internal-redirect">Other Disclosures</a></li><li><a href="/downloads/statutory-disclosure/issuer-wise-disclosure" class="internal-redirect">Issuer Wise Disclosure</a></li><li><a href="/downloads/statutory-disclosure/valuation-policy" class="internal-redirect">Valuation Policy</a></li><li><a href="/downloads/statutory-disclosure/csr-policy" class="internal-redirect">CSR</a></li><!--<li><a href="/docs/default-source/other-disclosure/stewardship-policy_mirae-asset-investment-managers.pdf" target="_blank" class="internal-redirect">Stewardship Policy</a></li>-->
+ <li><a href="/downloads/statutory-disclosure/stewardship-report" target="_blank" class="internal-redirect">Stewardship Policy</a></li></ul></div><div class="col-md-3  pl-3 nav-border "><h4>Product Literature</h4><ul><li><a href="/downloads/product-presentations" class="internal-redirect">Product Presentations</a></li><li><a href="/downloads/product-guides" class="internal-redirect">Product Guides</a></li></ul><!--<h4><a href="https://www.miraeassetmf.co.in/downloads/marketing-collateral" target="_blank">Marketing Collaterals</a></h4>-->
+ <!-- <h4 class="mutualBtn" href="https://www.miraeassetmf.co.in/downloads/marketing-collateral" target="_blank">Marketing Collaterals</h4> -->
+ <!--<ul class="bt-15">
+                                                    <li><a href="https://www.miraeassetmf.co.in/downloads/marketing-collateral" target="_blank">Equity Funds</a></li>
+                                                    <li><a href="https://www.miraeassetmf.co.in/downloads/marketing-collateral" target="_blank">Hybrid Funds</a></li>
+                                                    <li><a href="https://www.miraeassetmf.co.in/downloads/marketing-collateral" target="_blank">Fixed Income Funds</a></li>
+                                                    <li><a href="https://www.miraeassetmf.co.in/downloads/marketing-collateral" target="_blank">Alternate Funds</a></li>
+                                                    <li><a href="https://www.miraeassetmf.co.in/downloads/marketing-collateral" target="_blank">Regional Language Marketing Collaterals</a></li>
+                                                    </ul>
+                                                    <a href="/downloads/market-insights"></a> -->
+ <!--<h4><a href="/downloads/market-insights">Market Insight</a></h4>-->
+ <!-- <h4 class="mutualBtn" href="https://www.miraeassetmf.co.in/downloads/emerging-market-insights" target="_blank">Market Insight</h4> -->
+ <!--<ul>
+                                                    <li><a href="/downloads/market-insights">Emerging market insight</a></li>
+                                                    <li><a href="/downloads/market-insights">Invest in Asia</a></li>
+                                                    </ul>-->
+ </div></div></div></div></div></div></li></ul></div></div></nav></div><!--mobile menu start--->
+ <nav id="mobile-menu" class="navbar navbar-expand-md navbar-light bg-light"><a class="navbar-brand" href="#"><img alt="logo" class="logo" type="image/jpeg" src="/images/default-source/default-album/mirae-asset-mutual-fund-logo.png" /></a>
+ <button id="mob_search_btn" data-toggle="collapse" data-target="#search_box" class="collapsed" aria-expanded="false"><i class="fa fa-search"></i></button><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon nav-icon2"><span class="abc"></span><span class="abc"></span><span class="abc"></span><span class="abc"></span><span class="abc"></span><span class="abc"></span></span>
+ </button><div class="collapse navbar-collapse" id="navbarNavDropdown"><ul class="navbar-nav customscrollbar"><li class="nav-item"><a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a> </li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="javascript:void(0);" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us
+                    </a>
+ <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"><li><a class="dropdown-item" href="/about-us">Mirae Asset Global</a></li><li><a class="dropdown-item" href="/about-us#india">Mirae Asset India</a></li><li><a class="dropdown-item" href="https://india.miraeasset.org/" target="_blank" id="liMiraeAssetFoundation">Mirae Asset Foundation</a></li><li><a class="dropdown-item" href="https://giftcity.miraeassetmf.co.in/" target="_blank" id="liGiftcity">GIFT City</a></li><li><a class="dropdown-item" href="/sif" target="_blank" id="liGiftcity">SIF</a></li><li><a class="dropdown-item" href="aif" target="_blank" id="liAif">AIF</a></li><!-- <li><a class="dropdown-item" href="/contact-us/career">Careers</a></li> -->
+ </ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="javascript:void(0);" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+ <!--Funds and Services-->Funds and Facilities
+                    </a>
+ <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"><li><a class="dropdown-item" href="/mutual-fund-scheme">Mutual Funds Scheme</a></li><li><a class="dropdown-item" href="/mutual-fund-facilities">Mutual Fund Facilities</a></li><li><a class="dropdown-item" href="/mutual-fund-scheme/nav-update">NAV Updates</a></li><li><a href="/mutual-fund-scheme/dividend-update" class="dropdown-item">IDCW Updates</a></li><li><a href="/choti-sip" class="headerlink">Choti SIP</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="javascript:void(0);" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Knowledge Center
+                    </a>
+ <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"><li><a class="dropdown-item" href="/calculators/target-sip-calculator">Wealth Creation</a> </li><li><a class="dropdown-item" href="/calculators/retirement-calculator">Retirement Planning</a> </li><li><a class="dropdown-item" href="/calculators/dream-home-budget-calculator">Dream Home</a> </li><li><a class="dropdown-item" href="/calculators/child-education-plan-calculator">Child's Education</a> </li><li><a class="dropdown-item" href="/knowledge-center/risk-profiler">Risk Profiler</a> </li><!-- <li><a class="dropdown-item" href="/sip-calculator">SIP</a> </li> -->
+ <!-- <li><a class="dropdown-item" href="/elss-fund-calculator">ELSS</a> </li> -->
+ <!--<li><a class="dropdown-item" href="/learning-module">Learning Module</a> </li>-->
+ <li><a class="dropdown-item" href="/knowledge-center/articles">Articles</a></li><li><a class="dropdown-item" href="/glossary">Glossary </a></li><li><a class="dropdown-item" href="/knowledge-center/did-you-know">Did You Know</a></li><li><a class="dropdown-item" href="/knowledge-center/myth-buster-creatives">Myth Busters</a></li><li><a class="dropdown-item" href="/knowledge-center/did-you-know">Did You Know</a></li><li><a class="dropdown-item" href="/knowledge-center/video">Videos</a></li><!--<li><a class="dropdown-item" href="/campaigns/sip-mutual-funds">Systematic Investment Plan</a></li>-->
+ <li><a class="dropdown-item" href="/sapna-in-progress">#SapnaInProgress (SIP)</a></li><li><a class="dropdown-item" href="/campaigns/balanced-advantage-fund">Balanced Advantage Fund</a></li><li><a class="dropdown-item" href="/campaigns/elss-tax-campaign">ELSS</a></li><li><a class="dropdown-item" href="/campaigns/exchange-traded-funds">Exchange Traded Funds</a></li><li><a class="dropdown-item" href="/campaigns/sustainable-investing">ESG</a></li><li><a class="dropdown-item" href="/campaigns/what-are-multicap-funds">Multicap Funds</a></li><li><a class="dropdown-item" href="/campaigns/global-investing">Global Investing</a></li><li><a href="/campaigns/women-and-investing">Women and Investing</a></li></ul><!-- backup
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="/calculators/target-sip-calculator">Wealth Creation</a> </li>
+                        <li><a class="dropdown-item" href="/calculators/retirement-calculator">Retirement Planning</a> </li>
+                        <li><a class="dropdown-item" href="/calculators/dream-home-budget-calculator">Dream Home</a> </li>
+                        <li><a class="dropdown-item" href="/calculators/child-education-plan-calculator">Child's Education</a> </li>
+                        <li><a class="dropdown-item" href="/knowledge-center/risk-profiler">Risk Profiler</a> </li>
+                        <li><a class="dropdown-item" href="/sip-calculator">SIP</a> </li>
+                        <li><a class="dropdown-item" href="/elss-fund-calculator">ELSS</a> </li>
+                        <li><a class="dropdown-item" href="/learning-module">Learning Module</a> </li>
+                        <li><a class="dropdown-item" href="/knowledge-center/articles">Articles</a></li>
+                        <li><a class="dropdown-item" href="/glossary">Glossary </a></li>
+                        <li><a class="dropdown-item" href="/knowledge-center/did-you-know">Did You Know</a></li>
+                        <li><a class="dropdown-item" href="/knowledge-center/myth-buster-creatives">Myth Busters</a></li>
+                        <li><a class="dropdown-item" href="/knowledge-center/did-you-know">Did You Know</a></li>
+                        <li><a class="dropdown-item" href="/knowledge-center/video">Videos</a></li>
+                        <li><a class="dropdown-item" href="/campaigns/sip-mutual-funds">Systematic Investment Plan</a></li>
+                        <li><a class="dropdown-item" href="/campaigns/elss-tax-campaign">ELSS</a></li>
+                        <li><a class="dropdown-item" href="/campaigns/exchange-traded-funds">Exchange Traded Funds</a></li>
+                        <li><a class="dropdown-item" href="/campaigns/global-investing">Global Investing</a></li>
+                    </ul>
+                    -->
+ </li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="javascript:void(0);" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Downloads</a>
+ <!--<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item internal-redirect" href="/downloads/forms">Forms</a></li>
+                        <li><a class="dropdown-item internal-redirect" href="javascript:void(0);" data-href="https://www.miraeassetmf.co.in/downloads/factsheets-flipbooks" data-target="_blank">Factsheets &amp; Portfolios</a></li>
+                        <li><a class="dropdown-item internal-redirect" href="javascript:void(0);" data-href="https://www.miraeassetmf.co.in/downloads/factsheets-flipbooks" data-target="_blank">Portfolios</a></li>
+                        <li><a class="dropdown-item internal-redirect" href="javascript:void(0);" data-href="https://www.miraeassetmf.co.in/downloads/addendum" data-target="_blank">Addendum</a></li>
+                        <li><a class="dropdown-item internal-redirect" href="javascript:void(0);" data-href="https://www.miraeassetmf.co.in/downloads/financials" data-target="_blank">Financials</a></li>
+                        <li><a class="dropdown-item internal-redirect" href="/downloads/marketing">Marketing Collaterals</a></li>
+                        <li><a class="dropdown-item internal-redirect" href="javascript:void(0);" data-href="https://www.miraeassetmf.co.in/downloads/regulatory" data-target="_blank">Regulatory</a></li>
+                        <li><a class="dropdown-item internal-redirect" href="javascript:void(0);" data-href="https://www.miraeassetmf.co.in/downloads/transaction-details" data-target="_blank">Transaction Details</a></li>
+                        <li><a class="dropdown-item internal-redirect" href="javascript:void(0);" data-href="https://www.miraeassetmf.co.in/downloads/valuation-policy" data-target="_blank">Valuation Policy</a></li>
+                        <li><a class="dropdown-item internal-redirect" href="javascript:void(0);" data-href="/downloads/statutory-disclosure/total-expense-ratio" data-target="_blank">Total Expense Ratio</a></li>
+                        </ul>-->
+ <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"><li><a class="dropdown-item internal-redirect" href="/downloads/forms">Forms</a></li><li><a class="dropdown-item internal-redirect" href="/downloads/factsheet">Factsheets</a></li><li><a class="dropdown-item internal-redirect" href="/downloads/portfolio">Portfolios</a></li><li><a class="dropdown-item internal-redirect" href="/downloads/statutory-disclosure/addendum">Addendum</a></li><li><a class="dropdown-item internal-redirect" href="/downloads/statutory-disclosure/financials">Financials</a></li><!-- <li><a class="dropdown-item internal-redirect" href="/downloads/marketing">Marketing Collaterals</a></li> new -->
+ <li><a class="dropdown-item internal-redirect" href="/downloads/market-insights">Market Insights</a></li><li><a class="dropdown-item internal-redirect" href="/downloads/statutory-disclosure/other-disclosure">Other Disclosures</a></li><li><a class="dropdown-item internal-redirect" href="/downloads/statutory-disclosure/issuer-wise-disclosure">Issuer wise disclosure</a></li><li><a class="dropdown-item internal-redirect" href="/downloads/statutory-disclosure/transaction-details">Transaction Details</a></li><li><a class="dropdown-item internal-redirect" href="/downloads/statutory-disclosure/total-expense-ratio">Total Expense Ratio</a></li><li><a class="dropdown-item internal-redirect" href="/downloads/statutory-disclosure/valuation-policy">Valuation Policy</a></li><li><a class="dropdown-item internal-redirect" href="/downloads/statutory-disclosure/csr-policy">CSR</a></li><li><a class="dropdown-item internal-redirect" href="/downloads/statutory-disclosure/stewardship-report" target="_blank">Stewardship Policy</a></li><li><a class="dropdown-item internal-redirect" href="/downloads/product-presentations">Product Presentations</a></li><li><a class="dropdown-item internal-redirect" href="/downloads/product-guides">Product Guides</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="javascript:void(0);" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Investor Hub</a>
+ <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"><li><a class="dropdown-item internal-redirect" href="https://transact.miraeassetmf.co.in" target="_blank">Transact Online</a> </li><li><a class="dropdown-item internal-redirect" href="https://www.mfcentral.com/">MF Central</a> </li><li><a class="dropdown-item internal-redirect" href="https://transact.miraeassetmf.co.in">e-KYC</a> </li><li><a class="dropdown-item internal-redirect" href="/transact-in-etf">Transact in ETF</a> </li><li><a class="dropdown-item internal-redirect" href="/investor-hub/sms-service">SMS Services</a> </li><li><a class="dropdown-item internal-redirect" href="https://transact.miraeassetmf.co.in/mnwclient/Admin/Login/Login" target="_blank">Statement of A/C (SOA)</a> </li><li><a class="dropdown-item internal-redirect" href="https://transact.miraeassetmf.co.in/investor/General/quickupdatecontactdetails.aspx" target="_blank">Update Contact Details</a> </li><li><a class="dropdown-item internal-redirect" href="/calculators/target-sip-calculator">Goal Calculator</a> </li><li><a class="dropdown-item internal-redirect" href="/knowledge-center/risk-profiler">Risk Profiler</a> </li><li><a class="dropdown-item internal-redirect" href="/calculators">Fund Return Calculators</a> </li><li><a class="dropdown-item internal-redirect" href="/mutual-fund-scheme/nav-update">NAV updates</a> </li><li><a class="dropdown-item internal-redirect" target="_blank" href="https://www.cvlkra.com/Default.aspx">KYC check</a></li><li><a class="dropdown-item internal-redirect" href="/investor-hub/check-nominee">Check Nominee Details</a> </li><li><a class="dropdown-item internal-redirect" target="_blank" href="https://mfs.kfintech.com/panupdation/">Update PAN Details</a></li><li><a class="dropdown-item internal-redirect" href="/investor-hub/transmission-of-units">Transmission of Units</a></li><li><a class="dropdown-item internal-redirect" href="/investor-hub/dematerialisation-or-rematerialisation-of-mutual-fund-units">Dematerialisation or Rematerialisation of Mutual Fund Units</a></li><li><a class="dropdown-item internal-redirect" href="/mutual-fund-scheme/dividend-update">IDCW Updates</a></li><li><a class="dropdown-item internal-redirect" href="/docs/default-source/default-document-library/sop-for-incapacitated-investor.pdf">SOP for dealing with incapacitated Investors</a></li><li><a class="dropdown-item internal-redirect" href="/investor-hub/unclaimed-dividend">Check Unclaimed Dividend</a> </li><li><a class="dropdown-item internal-redirect" href="/investor-hub/unclaimed-redemption">Check Unclaimed Redemption</a> </li><li><a class="dropdown-item internal-redirect" href="/investor-hub/remuneration-disclosure">Executive Remuneration Disclosure</a> </li><li><a class="dropdown-item internal-redirect" href="/investor-hub/know-your-customer-(kyc)-procedure-and-guidelines-for-mutual-funds">KYC Procedure and Guidelines for MF</a> </li><!--<li><a class="dropdown-item internal-redirect" href="/investor-hub/investor-newsletter">Investor Newsletter</a></li>-->
+ <li><a class="dropdown-item internal-redirect" href="/knowledge-center">Learn with Mirae Asset</a></li><li><a class="dropdown-item internal-redirect" href="/investor-hub/investor-awareness-program">Investor Awarness Programme</a></li><li><a class="dropdown-item internal-redirect" href="/investor-hub/check-nominee">Check Nominee Details</a> </li><li><a class="dropdown-item internal-redirect" href="/">Electronic Voting Mobile</a> </li><li><a class="dropdown-item internal-redirect" href="/downloads/market-insights">Market Insight</a></li><li><a class="dropdown-item internal-redirect" href="/investor-hub/fund-manager-videos">Fund and Outlook Videos</a></li><li><a class="dropdown-item internal-redirect" href="/investor-hub/fm-station">FM Station</a></li><li><a class="dropdown-item internal-redirect" href="/docs/default-source/default-document-library/voluntary-lockin.pdf">Voluntary Lock-in</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="javascript:void(0);" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Partner Corner</a>
+ <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"><li><a class="dropdown-item internal-redirect" href="https://transact.miraeassetmf.co.in/mirae_portal/login" target="_blank">Distributor Initiated Transaction (DIT)</a></li><li><a class="dropdown-item internal-redirect" href="https://transact.miraeassetmf.co.in/mirae_portal/login" target="_blank">Empanel with us</a></li><!-- <li><a class="dropdown-item internal-redirect" href="https://magiq.miraeassetmf.co.in/login-reg">MAGiQ: Mirae Asset Great India Quiz</a></li> -->
+ <!-- <li><a class="dropdown-item internal-redirect" href="/partner-corner/cobranded-collateral">Co-Branded Collateral</a></li> -->
+ <li><a class="dropdown-item internal-redirect" href="https://businessready.miraeassetmf.co.in/">Business Ready: Cobrand Collaterals</a></li><!-- <li><a class="dropdown-item internal-redirect" target="_blank" href="https://transact.miraeassetmf.co.in/miraedit/Mirae/DistributorLinkGeneration">Generate ARN link for Investors</a></li> -->
+ <!-- <li><a class="dropdown-item internal-redirect" target="_blank" href="https://transact.miraeassetmf.co.in/miraedit/Mirae/RIALinkGeneration">Generate RIA Links</a></li> -->
+ <li><a class="dropdown-item internal-redirect" href="/partner-corner/quiz-of-the-month">Quiz</a></li><!-- <li><a class="dropdown-item internal-redirect" href="/partner-corner/archived-opinion-polls">Poll</a></li> -->
+ <li><a class="dropdown-item internal-redirect" href="/partner-corner/cadre-distributors">New Cadre of Distributors</a> </li><li><a class="dropdown-item internal-redirect" href="/downloads/market-insights">Market Insight</a> </li><!-- <li><a class="dropdown-item internal-redirect" target="_blank" href="/partner-corner/wall-of-fame">Wall Of Fame</a> </li> -->
+ <!-- <li><a class="dropdown-item internal-redirect" target="_blank" href="/partner-connect">Partner Connect</a> </li> -->
+ <!-- <li><a class="dropdown-item internal-redirect" target="_blank" href="/partner-corner/meeting-customized-requirements">Meeting Customized Requirements</a> </li> -->
+ <!-- <li><a class="dropdown-item internal-redirect" target="_blank" href="https://camonview.com/miraeasset/">Live Webinar</a> </li> -->
+ <li><a class="dropdown-item internal-redirect" target="_blank" href="/partner-corner/the-big-leap">The Big Leap</a> </li><li><a class="dropdown-item internal-redirect" target="_blank" href="https://t.me/+W7Ed6Ihx-dthMjk1">Join us on Telegram</a> </li><li><a class="dropdown-item internal-redirect" target="_blank" href="/docs/default-source/partner-corner/ready-reckoner-for-mfds-shared-with-amcs-(05-feb-25).pdf">Ready Reckoner for MFDs</a> </li><li><a class="dropdown-item internal-redirect" target="_blank" href="/partner-corner/distributor-handbook">Distributors Handbook  </a> </li></ul></li><li class="nav-item"><a class="nav-link" href="/contact-us">Contact us</a> </li><li class="nav-item"><a class="nav-link" href="/locate-us">Locate us</a> </li><li class="nav-item"><a class="nav-link" href="/careers">Careers</a> </li><li class="nav-item"><a class="nav-link loginHeaderBtn etf-website glow" id="login" href="https://miraeassetetf.co.in/" target="_blank"><img alt="logo" src="/images/default-source/default-album/whiteusericon.png" height="16" width="16" />ETF Website</a>
+ </li><br /><li class="nav-item"><a class="nav-link loginHeaderBtn" href="https://transact.miraeassetmf.co.in/" target="_blank"><img alt="" src="/images/default-source/default-album/whiteusericon.png" />Invest Now</a>
+ </li><br /><li class="nav-item"><a class="nav-link loginHeaderBtn etf-website glow" id="login" href="https://platinumsif.miraeassetmf.co.in" target="_blank"><img alt="logo" src="/images/default-source/default-album/whiteusericon.png" height="16" width="16" />SIF Website</a>
+ </li><!-- <li class="nav-item"><a class="nav-link loginHeaderBtn" href="https://transact.miraeassetmf.co.in/" target="_blank"><img alt="OnlineE-KYC" src="/images/default-source/default-album/whiteusericon.png" class="mCS_img_loaded" />Online e-KYC </a>
+                </li> -->
+ </ul></div><div id="search_box" class="collapse"><div class="mobile-search-box"><div class="input-group"><input type="text" class="form-control customsearch customsearchMob" placeholder="Search..." /><div class="input-group-append"><button class="btn btn-primary" type="button" id="searchClickMob"><i class="fa fa-search"></i></button></div></div></div></div></nav><div class="container-fluid search-box-section"><div class="row"><div class="col-sm-12"><div class="mobile-search-box"><div class="input-group"><input type="text" class="form-control" placeholder="Search" /><div class="input-group-append"><button class="btn btn-primary" type="submit"><i class="fa fa-search"></i></button></div></div></div></div></div></div><!--mobile menu end--->
+</div><!--- side bar section start-->
+<div class="side-bar-section"><div class="calci_icon icons"><a class="white-tooltip fordesktop" id="invest_now" href="https://transact.miraeassetmf.co.in" target="_blank" data-toggle="tooltip" data-placement="left" data-original-title="Invest Now"><img alt="Invest Now" src="/images/default-source/default-album/home-page---check-nav.png" aria-hidden="true" /></a>
+
+ <a href="https://transact.miraeassetmf.co.in" target="_blank" id="invest_now" class="forMobile" data-placement="left" title="Invest Now"><img alt="Invest Now" src="/images/default-source/default-album/home-page---check-nav.png" aria-hidden="true" /></a>
+ </div><div class="phone_icon icons"><a class="white-tooltip fordesktop" id="tollfree" href="javascript:void(0);" data-toggle="tooltip" data-placement="left" title="Call at 1800-2090-777"><img alt="Call at 1800-2090-777" src="/images/default-source/default-album/phone.png" /></a>
+ <a href="tel:1800-2090-777" class="forMobile" id="tollfree" data-placement="left" title="Toll Free number"><img alt="Call at 1800-2090-777" src="/images/default-source/default-album/phone.png" /></a>
+ </div><div class="email_icon icons"><a class="white-tooltip fordesktop" id="contact" href="/contact-us" data-toggle="tooltip" data-placement="left" title="Contact Us"><img alt="contactUs" src="/images/default-source/default-album/email.png" /></a>
+ <a href="/contact-us" class="forMobile" data-placement="left" id="contact" title="Contact Us"><img alt="contactUs" src="/images/default-source/default-album/email.png" /></a>
+ </div><div class="equity_icon icons"><a class="white-tooltip wishToinvestBtn fordesktop" id="request_callback" href="javascript:void(0);" data-toggle="tooltip" data-placement="left" title="Request a Call Back"><img alt="wishToInvest" src="/images/default-source/default-album/equity.png" /></a>
+ <a href="javascript:void(0);" class="wishToinvestBtn forMobile" id="request_callback" data-placement="left" title="Request a Call Back"><img alt="wishToInvest" src="/images/default-source/default-album/equity.png" /></a>
+ </div><div class="whatsapp_icon icons"><a class="white-tooltip fordesktop" id="WhatsApp" href="https://wa.me/918879444000?text=Hi" target="_blank" data-toggle="tooltip" data-placement="left" data-original-title="Send ‘Hi’ on WhatsApp- 88794 44000"><img alt="WhatsApp" src="/images/default-source/default-album/whatsapp.png" height="40" width="40" aria-hidden="true" /></a>
+ <a class="forMobile" id="WhatsApp" href="https://wa.me/918879444000?text=Hi" target="_blank" data-placement="left" title="Send ‘Hi’ on WhatsApp- 88794 44000"><img alt="WhatsApp" src="/images/default-source/default-album/whatsapp.png" height="40" width="40" aria-hidden="true" /></a>
+ </div><!--<div class="calci_icon icons">
+                                                                <a class="white-tooltip fordesktop" href="/calculators" data-toggle="tooltip" data-placement="left" title="Calculators"><img alt="Calculators" src="/images/default-source/default-album/calci.png" /></a>
+                                                                <a href="/calculators" class="forMobile" data-placement="left" title="Calculators"><img alt="Calculators" src="/images/default-source/default-album/calci.png" /></a>
+                                                            </div>-->
+</div><!--- side bar section end--></div>    
+
+</div>
+
+ <div id="mainContentWrap"> 
+<div id="BodySection_T76A2D4FB017_Col00" class="sf_colsIn first-section" data-sf-element="Container" data-placeholder-label="first-section"><div id="BodySection_T76A2D4FB018_Col00" class="sf_colsIn container-fluid" data-sf-element="Container" data-placeholder-label="container-fluid">
+<div class="insideBanner">
+<picture>
+	<source srcset="/images/default-source/mobile-banner/top-banner---inner-page-building-img-blank--mobile3fa6f5af20274b8e887f2c1d7c502217.jpg
+" media="(max-width: 991px)">
+	</source><img src="/images/default-source/blank-banners/top-banner---inner-page-building-img-blank3efedbcbb60141e893604fa799e705e1.jpg" />
+</picture>
+</div>
+<div class="container">
+    <nav class="navigation" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+                    <li class="breadcrumb-item"> <a id="bread_crumb" href="/">Home </a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Error</li>
+        </ol>
+    </nav>
+</div>
+
+<div >
+    <div ><section><div class="container healthcare-funds "><div class="row"><div class="col-md-12"><h1 class="homeTitle">Error!!!!</h1><p class="sub-title">Seems like servers are busy at this moment. You can try again after sometime.</p><p>Go to home screen by clicking on below button or you can browse the complete website from the navigation above.</p></div></div><div class="row"><div class="col-md-12 buttonGroup"><div class="buttonLook"><a href="/">Home <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+ </div></div></div></div></section></div>    
+
+</div> <!-- CUSTOM ERROR VIEW -->   
+
+</div>
+
+</div>
+ </div> 
+
+
+<div >
+    <div ><footer id="desktop-footer"><div class="container footerHelpUs"><div class="row"><div class="col-md-12 footerHelpUsBox formValid"><span class="footerGetInTouch">Help us get in touch with you.</span>
+ <form><div class="row footer-help-row "><div class="col-md-3"><div class="form-group inputbox"><div class=" feilds"><i class="fa fa-user-o" aria-hidden="true"></i><input class="form-control required alpha nameFormField" aria-describedby="footerNameError" type="text" maxlength="50" placeholder="Enter Your name" /></div><div class="error_message" id="footerNameError">Please enter Your Name Here</div></div></div><div class="col-md-3"><div class="form-group inputbox"><div class=" feilds"><i class="fa fa-envelope-o" aria-hidden="true"></i><input class="form-control required email emailFormField" aria-describedby="footerMailError" type="text" maxlength="50" placeholder="Enter Your mail" /></div><div class="error_message" id="footerMailError">Enter Your Email Id</div></div></div><div class="col-md-3"><div class="form-group inputbox"><div class=" feilds"><i class="fa fa-phone" aria-hidden="true"></i><input class="form-control required mobileNumber numbersOnly mobileFormField" aria-describedby="footerMobileError" type="text" maxlength="10" placeholder="Enter Mobile Number" /></div><div class="error_message" id="footerMobileError">Enter Mobile Number</div></div></div><div class="col-md-3"><div class="form-group inputbox citysec"><div class=" feilds"><i class="fa fa-map-marker" aria-hidden="true"></i><input class="form-control required alpha cityFormField cityAutoFill" type="text" maxlength="50" placeholder="Enter city" /><input class="cityHiddenValue" type="hidden" /></div><div class="error_message" id="footerCityError">Please enter Your City</div></div></div></div><!--<div>
+                                                                                                                                                                                        <div class="col-md-12">
+                                                                                                                                                                                            <div class="captcha">
+                                                                                                                                                                                                <div class="form-group inputbox">
+                                                                                                                                                                                                    <div class="feilds">
+                                                                                                                                                                                                        <input type="text" placeholder="Enter Code" class="form-control required captchaFormField" maxlength="6" />
+                                                                                                                                                                                                        <div class="capt">
+                                                                                                                                                                                                            <img alt="" class="imgCaptcha" /><a href="javascript:void(0);" class="refresh btncaptcha"><img alt="" src="/images/default-source/default-album/refresh_icon.png" /></a>
+                                                                                                                                                                                                            <input type="hidden" class="hdnCaptchaId" />
+                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                    <div class="error_message">Please enter Captcha</div>
+                                                                                                                                                                                                </div>
+                                                                                                                                                                                            </div>
+                                                                                                                                                                                        </div>
+                                                                                                                                                                                        <div class="col-md-12">
+                                                                                                                                                                                            <p class="footerDiscalimer">By entering your personal details, you hereby authorize Mirae Asset Mutual Fund and/or its authorized service provider(s) to contact you and this will override any NDNC registration made by you.</p>
+                                                                                                                                                                                        </div>
+                                                                                                                                                                                        <div class="col-md-12">
+                                                                                                                                                                                            <div class="footer_submit submitBt">
+                                                                                                                                                                                                <div class="btnloadSec">
+                                                                                                                                                                                                    <button type="button" class="btnGetInTouch loadBtn">
+                                                                                                                                                                                                        <span class="btnText">Submit <em class="fa fa-angle-right " aria-hidden="true"></em></span>
+                                                                                                                                                                                                    </button>
+                                                                                                                                                                                                    <div class="btnloader"> </div>
+                                                                                                                                                                                                </div>
+                                                                                                                                                                                            </div>
+                                                                                                                                                                                        </div>
+                                                                                                                                                                                    </div>-->
+ <div class="row footer-help-row"><div class="col-md-12"><div class="row"><div class="col-md-3 offset-lg-1"><div class="form-group inputbox"><div class="selectpickerWrap"><div class="feilds"><select class="form-control required ddlType dropdown-footer"><option id="New Investment">New Investment</option>
+ <option id="Looking for additional investment">Looking for additional investment</option>
+ <option id="Service Related">Service Related</option>
+ </select>
+ <div class="error_message typeofquery">Select Type of Query</div></div></div></div></div><div class="col-lg-4 col-md-4 text-center"><div class="captcha"><div class="form-group inputbox captchawrap"><div class="feilds"><div class="g-recaptcha-first capt" id="RecaptchaFieldGetInTouch" aria-describedby="footerCaptchaError" style="width:100%;overflow:hidden;max-width:320px;transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;" data-sitekey="6LcbAtIUAAAAAG4s-BYveVlAEyNH7hraa3DBWiSh"> </div><input name="getInTouchCaptcha" class="hiddenRecaptcha" id="getInTouchCaptcha" type="hidden" /></div><div class="error_message" id="footerCaptchaError">Please enter Captcha</div></div></div></div><div class="col-md-4"><div class="footer_submit submitBt csr-sub-btn"><div class="btnloadSec"><button class="btnGetInTouch loadBtn" id="getInTouchSubmit" type="button"><span class="btnText">Submit <i class="fa fa-angle-right " aria-hidden="true"></i></span>
+ </button><div class="btnloader"> </div></div></div></div><div class="col-md-6"><div class="valid_Dates fieldError" tabindex="0">Please enter all required fields</div></div></div></div><div class="row ieblock"><div class="col-md-12"><p class="footerDiscalimer">By entering your personal details, you hereby authorize Mirae Asset Mutual Fund and/or its authorized service provider(s) to contact you and this will override any NDNC registration made by you.</p></div></div></div></form></div></div><div class="row align-items-center footer-logo-row"><div class="col-md-6 footerLogo"><img alt="" src="/images/default-source/default-album/logo.png" /></div><div class="col-md-6 text-end footerSocail"><span class="test">We’re Social</span>
+ <a href="https://www.facebook.com/MiraeAssetIN/" target="_blank"><i class="fa fa-facebook-f socialIcon facebook" aria-hidden="true"></i><p style="display:none;" hidden="hidden">facebook</p><span class="sr-only">Facebook</span></a>
+ <a href="https://twitter.com/MiraeAsset_IN" target="_blank"><i class="fa fa-twitter socialIcon twitter" aria-hidden="true"></i><p style="display:none;" hidden="hidden">twitter</p><span class="sr-only">twitter</span></a>
+ <a href="https://www.youtube.com/c/MiraeAssetIndia" target="_blank"><i class="fa fa-youtube-play socialIcon youtube" aria-hidden="true"></i><p style="display:none;" hidden="hidden">youtube</p><span class="sr-only">youtube</span></a>
+ <a href="https://www.linkedin.com/company/mirae-asset-investment-managers-india/" target="_blank"><i class="fa fa-linkedin socialIcon linkdin" aria-hidden="true"></i><p style="display:none;" hidden="hidden">linkedin</p><span class="sr-only">linkedin</span></a>
+ <a href="https://www.instagram.com/miraeassetindia/" target="_blank"><i class="fa fa-instagram socialIcon instagram" aria-hidden="true"></i><p style="display:none;" hidden="hidden">instagram</p><span class="sr-only">Instagram</span></a>
+ <a rel="preconnect" href="https://whatsapp.com/channel/0029VaohmfZ5Ejy2pqA4Hu06" target="_blank"><i class="fa fa-whatsapp socialIcon whatsapp" aria-hidden="true"></i><p style="display:none;" hidden="hidden">whatapp</p><span class="sr-only socialChannel">WhatsApp</span></a>
+ </div></div></div><div class="container footerLink" id="desktop-footerLink"><div class="text1 show-more-height"><div class="row"><div class="col-md-2"><h5 id="aboutUs">About us</h5><ul role="list" aria-labelledby="aboutUs"><li><a class="footerlink" href="/about-us">About Us (Global)</a></li><li><a class="footerlink" href="/about-us#india">About Us (India)</a></li><li><a class="footerlink" href="/mirae-asset-foundation">Mirae Asset Foundation</a></li><li><a class="footerlink" href="/contact-us">Contact Us</a></li><li><a class="footerlink" href="/locate-us">Locate Us</a></li><li><a href="/careers">Careers</a></li><br /><h5 id="aboutUs">Contact Us</h5><li><a class="tollfree" href="javascript:void(0)">Toll Free Number:</a></li><li><a class="tollfree" href="tel:1800-2090-777" aria-label="call our toll free number at 1800-2090-777">1800-2090-777</a></li><li><a class="NRICust" href="javascript:void(0)">For NRI Customer:</a></li><li><a class="NRICust" href="tel:022-67800300 –  Press 1" aria-label="call our NRI Customer number at 022-67800300 –  Press 1">022-67800300 –  Press 1</a></li><br /><li><a class="email" href="javascript:void(0)">Email Us</a></li><li><a class="email" href="mailto:customercare@miraeasset.com" aria-label="email us at customercare@miraeasset.com">customercare@miraeasset<br />.com
+ </a>
+ </li><br /><li><a class="footerlink" href="javascript:void(0)">Timings</a></li><li><a class="footerlink" href="javascript:void(0)">Monday to Saturday <br />9 a.m. to 6 p.m
+    </a>
+ </li></ul></div><div class="col-md-2"><h5 id="products">Funds</h5><ul role="list" aria-labelledby="products"><li><a class="footerlink" href="/mutual-fund-scheme">Mutual Funds Scheme</a></li><li><a class="footerlink" href="/mutual-fund-scheme/equity-fund">Equity Funds</a></li><li><a class="footerlink" href="/mutual-fund-scheme/hybrid-fund">Hybrid Funds</a></li><li><a class="footerlink" href="/mutual-fund-scheme/fixed-income">Fixed Income Funds</a></li><!-- <li><a href="/mutual-fund-scheme/etf-and-fof">ETF and FoF</a></li><br /> -->
+ <li><a class="footerlink" href="https://miraeassetetf.co.in/" target="_blank">ETF</a></li><li><a class="footerlink" href="/mutual-fund-scheme/fund-of-funds">FoF</a></li><li><a class="footerlink" href="/mutual-fund-scheme/index-funds">Index Funds</a></li><br /><h5 id="products">Facilities</h5><li><a class="footerlink" href="/mutual-fund-facilities">Mutual Fund Facilities</a></li><li><a class="footerlink" href="/sip-at-rs-99">SIP at Rs.99</a></li><!-- <li><a href="/mutual-fund-facilities/systematic-investment-plan">SIP</a></li> -->
+ <li><a class="footerlink" href="/mutual-fund-facilities/sip-systematic-investment-plan">SIP</a></li><li><a class="footerlink" href="/mutual-fund-facilities/systematic-transfer-plan">STP</a></li><li><a class="footerlink" href="/mutual-fund-facilities/systematic-withdrawal-plan">SWP</a></li><li><a class="footerlink" href="/mutual-fund-facilities/sip-top-up">SIP Top up</a></li><li><a class="footerlink" href="/mutual-fund-facilities/mirae-asset-variable-transfer-plan">Flex STP</a></li><li><a class="footerlink" href="/choti-sip">Choti SIP</a></li><!-- <li><a class="footerlink" href="/mutual-fund-facilities/mirae-asset-trigger-investment-plan">TRIP</a></li> -->
+ <!--    <li><a href="/mutual-fund-facilities/goal-systematic-investment-plan">GSIP</a></li> -->
+ <li><a class="footerlink" href="/mutual-fund-facilities/mirae-asset-group-investment-plan">C – SIP</a></li><li><a class="footerlink" href="/mutual-fund-facilities/one-time-mandate">OTM</a></li><li><a class="footerlink" href="/mutual-fund-facilities/multi-sip">Multi SIP</a></li><li><a class="footerlink" href="/mutual-fund-scheme/nav-update">NAV Updates</a></li><!--    <li><a href="javascript:void(0);" data-href="https://www.miraeassetmf.co.in/mutual-fund-scheme/dividend-update" data-target="_blank" class="external-redirect">Dividend Updates</a></li>-->
+ <li><a class="footerlink" href="/mutual-fund-scheme/dividend-update">IDCW updates</a></li><li><a class="footerlink" href="/calculators/sip-calculator">SIP Calculator</a></li><!--<li><a href="distributor/creation-of-unit-and-inav">Creation of Unit and iNAV</a></li>-->
+ </ul></div><div class="col-md-2"><h5 id="knowledgeCenter">Knowledge Centre</h5><ul role="list" aria-labelledby="knowledgeCenter"><li><a class="footerlink" href="/knowledge-center/articles">Articles</a></li><li><a class="footerlink" href="/glossary">Term of the Week</a></li><!-- <li><a href="/calculators">Calculators</a></li> -->
+ <!--   <li><a href="/calculators/dream-home-budget-calculator">Goal planner</a></li> -->
+ <li><a class="footerlink" href="/knowledge-center/risk-profiler">Risk Profiler</a></li><li><a class="footerlink" href="/campaigns/sip-mutual-funds">Systematic Investment Plan</a></li><li><a class="footerlink" href="/campaigns/elss-tax-campaign">ELSS –Tax Bachaya Kya?</a></li><li><a class="footerlink" href="/campaigns/exchange-traded-funds">Exchange Traded Funds</a></li><!-- <li><a href="/campaigns/esg">ESG</a></li> -->
+ <li><a class="footerlink" href="/campaigns/sustainable-investing">ESG</a></li><li><a class="footerlink" href="/knowledge-center/women-and-investing">Women And Investing</a></li><li><a class="footerlink" href="/knowledge-center/myth-buster-creatives">Myth Buster Creatives</a></li><li><a class="footerlink" href="/knowledge-center/video">Video</a></li><li><a class="footerlink" href="/knowledge-center/did-you-know">Did You Know</a></li><li><a class="footerlink" href="/campaigns/corporate-bond-iap">Corporate Bond Funds</a></li><li><a class="footerlink" href="/campaigns/sip-in-debt-iap">SIP in Debt Funds</a></li><li><a class="footerlink" href="/campaigns/global-investing">Global Investing</a></li><li><a class="footerlink" href="/campaigns/women-and-investing">Women and Investing</a></li><!-- <li><a href="/mutual-fund-scheme/mirae-asset-healthcare-fund">Fund manager blog and videos</a></li> -->
+ <!-- <li><a href="/downloads/market-insights">Market Insight</a></li> -->
+ <br /><h5 id="knowledgeCenter">Tools</h5><li><a class="footerlink" href="/calculators/target-sip-calculator">Wealth Creation</a> </li><li><a class="footerlink" href="/calculators/retirement-calculator">Retirement Planning</a> </li><li><a class="footerlink" href="/calculators/dream-home-budget-calculator">Dream Home</a> </li><li><a class="footerlink" href="/calculators/child-education-plan-calculator">Child's Education</a> </li><li><a class="footerlink" href="/calculators/wedding-budget-calculator">Child's Marriage</a> </li><li><a class="footerlink" href="/calculators/travel-cost-calculator">Dream Vacation</a> </li></ul></div><div class="col-md-2"><h5 id="investorHub">Investor Hub</h5><ul role="list" aria-labelledby="investorHub"><li><a class="footerlink" href="https://transact.miraeassetmf.co.in" target="_blank">Transact Online</a></li><li><a class="footerlink" href="/transact-in-etf">Transact in ETF</a> </li><li><a class="footerlink" href="/investor-hub/sms-service">SMS Services</a></li><li><a class="footerlink" href="/calculators">Fund Return Calculators</a></li><li><a class="footerlink" href="https://transact.miraeassetmf.co.in/mnwclient/Admin/Login/Login" target="_blank">Statement of Account (SOA)</a></li><li><a class="footerlink" href="https://transact.miraeassetmf.co.in/investor/General/quickupdatecontactdetails.aspx" target="_blank">Update Contact details</a></li><li><a class="footerlink" target="_blank" href="https://www.cvlkra.com/Default.aspx">KYC check</a></li><li><a class="footerlink" href="/investor-hub/check-nominee">Check Nominee Details</a></li><li><a class="footerlink" href="/investor-hub/unclaimed-dividend">Check Unclaimed Dividend</a></li><li><a class="footerlink" href="/investor-hub/transmission-of-units">Transmission of Units</a> </li><li><a class="footerlink" href="/investor-hub/unclaimed-redemption">Check Unclaimed Redemption</a></li><li><a class="footerlink" href="/investor-hub/remuneration-disclosure">Remuneration Disclosure</a></li><li><a class="footerlink" href="/investor-hub/fund-manager-videos">Fund and Outlook Videos</a></li><li><a class="footerlink" href="/investor-hub/investor-awareness-program">Investor Awarness Programme</a></li><li><a class="footerlink" target="_blank" href="https://mfs.kfintech.com/panupdation/">Update PAN Details</a></li><li><a class="footerlink" href="https://transact.miraeassetmf.co.in/investor/General/quickupdatecontactdetails.aspx" target="_blank">Update Contact Details</a></li><li><a class="footerlink" target="_blank" href="https://smartodr.in/login">ODR Portal</a></li><li><a href="https://wa.me/918879444000?text=Hi" class="whats-wrap">
+ <div class="whats-app-icon"><img src="/images/default-source/default-album/whatsapp-30x30px.png" alt="WhatsApp" /></div><div class="whats-info"><p class="sm-text">Send "Hi" <br />on whatsapp number</p><p class="number-text">8879444000</p></div></a>
+ </li><!-- <li><a href="https://transact.miraeassetmf.co.in/investor/#openModal" target="_blank">Transact Online</a></li>
+                                                                                                                                                                                                                        <li><a href="/calculators/dream-home-budget-calculator">Goal Calculators</a></li>
+                                                                                                                                                                                                                        <li><a href="/calculators">Calculators</a></li> -->
+ <!-- <li><a href="/mutual-fund-scheme/nav-update">NAV updates</a></li> -->
+ <!-- <li><a href="/mutual-fund-scheme/dividend-update">Dividend updates</a></li>-->
+ </ul></div><div class="col-md-2"><h5 id="partnerCorner">Partner Corner</h5><ul role="list" aria-labelledby="partnerCorner"><li><a class="footerlink" href="https://transact.miraeassetmf.co.in/mirae_portal/login" target="_blank">Distributor Initiated Transaction</a></li><!-- <li><a href="https://transact.miraeassetmf.co.in/miraedit" target="_blank">Empanel with us</a></li> -->
+ <li><a class="footerlink" href="https://transact.miraeassetmf.co.in/mirae_portal/login" target="_blank">Empanel with us</a></li><!-- <li><a href="https://magiq.miraeassetmf.co.in/login-reg">MAGiQ: Mirae Asset Great India Quiz</a></li> -->
+ <!-- <li><a href="/partner-corner/cobranded-collateral">Co-branded Collaterals</a></li> -->
+ <li><a class="footerlink" href="https://businessready.miraeassetmf.co.in/">Business Ready: Cobrand Collaterals</a></li><!--  <li><a href="/partner-corner/customize-arn">Customised ARN Links</a></li>-->
+ <li><a class="footerlink" href="/partner-corner/quiz-of-the-month">Quiz</a></li><!-- <li><a href="/partner-corner">Poll</a></li> -->
+ <!-- <li><a href="/downloads">Downloads</a></li> -->
+ <li><a class="footerlink" href="/partner-corner/cadre-distributors">New Cadre of Distributors</a></li><!-- <li><a href="/partner-corner/meeting-customized-requirements">Meeting customized requirements</a></li> -->
+ <!-- <li><a href="/partner-corner/wall-of-fame">Wall Of Fame</a></li> -->
+ <!-- <li><a href="/partner-connect">Partner Connect</a></li> -->
+ <!-- <li><a href="https://camonview.com/miraeasset/">Live Webinar</a></li> -->
+ <li><a class="footerlink" href="/partner-corner/the-big-leap">The Big Leap</a></li><li><a class="footerlink" href="https://t.me/+W7Ed6Ihx-dthMjk1" target="_blank">Join us on Telegram</a></li><!-- <li><a href="https://transact.miraeassetmf.co.in/miraedit/Mirae/DistributorLinkGeneration">Generate ARN link for Investors </a></li> -->
+ <!-- <li><a href="https://transact.miraeassetmf.co.in/miraedit/Mirae/RIALinkGeneration">Generate RIA Links</a></li> -->
+ <!-- <li><a href="/educational-articles">IFA Articles</a></li>-->
+ </ul></div><div class="col-md-2"><h5 id="downloads">Downloads</h5><ul role="list" aria-labelledby="downloads"><li><a class="footerlink" href="/downloads/forms">Forms</a></li><li><a class="footerlink" href="/downloads/factsheet">Factsheet</a></li><li><a class="footerlink" href="/downloads/portfolio">Portfolio</a></li><!--<li><a class="footerlink" href="/downloads/marketing">Marketing Collaterals</a></li>-->
+ <li><a class="footerlink" href="/downloads/market-insights">Market Insight</a></li><li><a class="footerlink" href="/downloads/press-release">Press Release</a></li><li><a class="footerlink" href="/downloads/statutory-disclosure/addendum">Addendum</a></li><li><a class="footerlink" href="/downloads/statutory-disclosure/financials">Financials</a></li><li><a class="footerlink" href="/downloads/statutory-disclosure/transaction-details">Transaction Details</a></li><li><a class="footerlink" href="/downloads/statutory-disclosure/total-expense-ratio">Total Expense ratio</a></li><li><a class="footerlink" href="/downloads/statutory-disclosure/other-disclosure">Other Disclosures</a></li><li><a class="footerlink" href="/downloads/statutory-disclosure/issuer-wise-disclosure">Issuer Wise Disclosure</a></li><li><a class="footerlink" href="/downloads/statutory-disclosure/valuation-policy">Valuation Policy</a></li><li><a class="footerlink" href="/downloads/statutory-disclosure/voting-policy">Voting Policy</a></li><li><a class="footerlink" href="/docs/default-source/default-document-library/tax-changes-post-union-budget-20244198463397924db58a246aac9a1be358.pdf" target="_blank">Tax Reckoner 2024-25</a></li><li><a class="footerlink" href="/downloads/statutory-disclosure/csr-policy">CSR</a></li><li><a class="footerlink" href="/downloads/statutory-disclosure/stewardship-report" target="_blank">Stewardship Policy</a></li><li><a class="footerlink" href="/docs/default-source/default-document-library/indian-holiday-list.pdf?sfvrsn=c58a2a4f_2
+" target="_blank">India Market- Non Business Days</a></li><li><a class="footerlink" href="/docs/default-source/default-document-library/global-calender.pdf?sfvrsn=1c7c8b25_2" target="_blank">Global Market- Non Business Days</a></li><li><a class="footerlink" href="/docs/default-source/default-document-library/request-for-proposal-from-firms-for-internal-audit.pdf?sfvrsn=2c48c191_2" target="_blank">Request For Proposal</a></li><!-- <li><a href="/docs/default-source/default-document-library/u-s-market-non-business-days.pdf?sfvrsn=edb413dd_2" target="_blank">U.S. Market Non Business Days</a></li> -->
+ </ul></div><!--<div class="col-md-2">
+                                                                                                                                                                <h5><a href="#">Investor Hub</a></h5>
+                                                                                                                                                                <h5><a href="#">Partner Corner</a></h5>
+                                                                                                                                                                <h5><a href="#">Contact us</a></h5>
+                                                                                                                                                                <h5><a href="#">Branch Locator</a></h5>
+                                                                                                                                                            </div>-->
+ </div></div><div class="show-more">Show More <i class="fa fa-angle-down" aria-hidden="true"></i></div><div class="row"><div class="col-md-12 text-end"><a class="scrollup" href="#"><i class="fa fa-chevron-up" aria-hidden="true"></i><span class="sr-only">Scroll Up</span>
+</a>
+ </div></div></div><div class="container mutualFundtext"><div class="col-md-12 text-center"><p>Mutual Fund investments are subject to market risks, read all scheme related documents carefully.</p></div></div><!--mobile accordian footer start -->
+ <div class="container footerLink" id="mobile-footerLink"><div class="row" style="margin:auto;"><div class="col-sm-12"><div class="panel-group" id="accordionGroupClosed" role="tablist" aria-multiselectable="true"><div class="panel panel-default"><div class="panel-heading" id="headingOne" role="tab"><h4 class="panel-title"><a class="collapsed" aria-expanded="true" aria-controls="collapseCloseOne" href="#collapseCloseOne" data-parent="#accordionGroupClosed" data-toggle="collapse">About Us
+</a>
+ </h4></div><div class="panel-collapse collapse" id="collapseCloseOne" role="tabpanel" aria-labelledby="headingOne"><div class="panel-body"><ul><li><a class="footerlink" href="/about-us">About Us (Global)</a></li><li><a class="footerlink" href="/about-us#india">About Us (India)</a></li><li><a class="footerlink" href="/mirae-asset-foundation">Mirae Asset Foundation</a></li><li><a class="footerlink" href="/contact-us">Contact Us</a></li><li><a class="footerlink" href="/locate-us">Locate Us</a></li><li><a class="footerlink" href="/careers">Careers Us</a></li><br /><br /><h5 id="aboutUs">Contact Us</h5><li><a class="footerlink" href="javascript:void(0)">Toll Free Number:</a></li><li><a class="footerlink" href="tel:1800-2090-777" aria-label="call our toll free number at 1800-2090-777">1800-2090-777</a></li><li><a class="tollfree" href="javascript:void(0)"><b>For NRI Customer:</b></a></li><li><a class="NRICust" href="tel:022-67800300 –  Press 1" aria-label="call our NRI Customer number at 022-67800300 –  Press 1">022-67800300 –  Press 1</a></li><br /><li><a class="footerlink" href="javascript:void(0)">Email Us</a></li><li><a class="email" href="mailto:customercare@miraeasset.com" aria-label="email us at customercare@miraeasset.com">customercare@miraeasset.com</a></li><br /><li><a class="footerlink" href="javascript:void(0)">Timings</a></li><li><a class="footerlink" href="javascript:void(0)">Monday to Saturday <br />9 a.m. to 6 p.m
+    </a>
+ </li><!-- <li><a href="/contact-us/career">Careers</a></li> -->
+ </ul></div></div></div><hr class="footer-link-divider" /><div class="panel panel-default"><div class="panel-heading" id="headingTwo" role="tab"><h4 class="panel-title"><a class="collapsed" aria-expanded="true" aria-controls="collapseCloseTwo" href="#collapseCloseTwo" data-parent="#accordionGroupClosed" data-toggle="collapse">Funds &amp; Facilities
+</a>
+ </h4></div><div class="panel-collapse collapse" id="collapseCloseTwo" role="tabpanel" aria-labelledby="headingTwo"><div class="panel-body"><ul><li><a class="footerlink" href="/mutual-fund-scheme">Mutuals Funds</a></li><li><a class="footerlink" href="/mutual-fund-scheme/equity-fund">Equity Funds</a></li><li><a class="footerlink" href="/mutual-fund-scheme/hybrid-fund">Hybrid Funds</a></li><li><a class="footerlink" href="/mutual-fund-scheme/fixed-income">Fixed Income Funds</a></li><!-- <li><a href="/mutual-fund-scheme/etf-and-fof">ETF and FoF</a></li><br /> -->
+ <li><a class="footerlink" href="/mutual-fund-scheme/etf">ETF</a></li><li><a class="footerlink" href="/mutual-fund-scheme/fund-of-funds">FoF</a></li><li><a class="footerlink" href="/mutual-fund-scheme/index-funds">Index Funds</a></li><br /><h5 id="products">Facilities</h5><li><a class="footerlink" href="/mutual-fund-facilities">Mutual Fund Facilities</a></li><li><a class="footerlink" href="/sip-at-rs-99">SIP at Rs.99</a></li><!-- <li><a href="/mutual-fund-facilities/systematic-investment-plan">SIP</a></li> -->
+ <li><a class="footerlink" href="/mutual-fund-facilities/sip-systematic-investment-plan">SIP</a></li><li><a class="footerlink" href="/mutual-fund-facilities/systematic-transfer-plan">STP</a></li><li><a class="footerlink" href="/mutual-fund-facilities/systematic-withdrawal-plan">SWP</a></li><li><a class="footerlink" href="/mutual-fund-facilities/sip-top-up">SIP Top up</a></li><li><a class="footerlink" href="/mutual-fund-facilities/mirae-asset-variable-transfer-plan">Flex STP</a></li><li><a class="footerlink" href="/choti-sip">Choti SIP</a></li><!-- <li><a class="footerlink" href="/mutual-fund-facilities/mirae-asset-trigger-investment-plan">TRIP</a></li> -->
+ <!--    <li><a href="/mutual-fund-facilities/goal-systematic-investment-plan">GSIP</a></li> -->
+ <li><a class="footerlink" href="/mutual-fund-facilities/mirae-asset-group-investment-plan">C – SIP</a></li><li><a class="footerlink" href="/mutual-fund-facilities/one-time-mandate">OTM</a></li><li><a class="footerlink" href="/mutual-fund-facilities/multi-sip">Multi SIP</a></li><li><a class="footerlink" href="/mutual-fund-scheme/nav-update">NAV Updates</a></li><li><a class="footerlink" href="/mutual-fund-scheme/dividend-update">IDCW Updates</a></li><li><a class="footerlink" href="/calculators/sip-calculator">SIP Calculator</a></li><!--<li><a href="/mutual-fund-scheme/dividend-update">Dividend Updates</a></li>-->
+ <!--<li><a href="distributor/creation-of-unit-and-inav">Creation of Unit and iNAV</a></li>-->
+ </ul></div></div></div><hr class="footer-link-divider" /><div class="panel panel-default"><div class="panel-heading" id="headingThree" role="tab"><h4 class="panel-title"><a class="collapsed" aria-expanded="true" aria-controls="collapseCloseThree" href="#collapseCloseThree" data-parent="#accordionGroupClosed" data-toggle="collapse">Knowledge Centre
+</a>
+ </h4></div><div class="panel-collapse collapse" id="collapseCloseThree" role="tabpanel" aria-labelledby="headingThree"><div class="panel-body"><ul><li><a class="footerlink" href="/knowledge-center/articles">Articles</a></li><li><a class="footerlink" href="/glossary">Term of the Week</a></li><!-- <li><a href="/calculators">Calculators</a></li> -->
+ <!-- <li><a href="/calculators/dream-home-budget-calculator">Goal planner</a></li> -->
+ <li><a class="footerlink" href="/knowledge-center/risk-profiler">Risk Profiler</a></li><li><a class="footerlink" href="/campaigns/sip-mutual-funds">Systematic Investment Plan</a></li><li><a class="footerlink" href="/campaigns/elss-tax-campaign">ELSS – Tax Bachaya Kya?</a></li><li><a class="footerlink" href="/campaigns/exchange-traded-funds">Exchange Traded Funds</a></li><!-- <li><a href="/campaigns/esg">ESG</a></li> -->
+ <li><a class="footerlink" href="/campaigns/sustainable-investing">ESG</a></li><li><a class="footerlink" href="/knowledge-center/women-and-investing">Women And Investing</a></li><li><a class="footerlink" href="/knowledge-center/myth-buster-creatives">Myth Buster Creatives</a></li><li><a class="footerlink" href="/knowledge-center/video">Video</a></li><li><a class="footerlink" href="/knowledge-center/did-you-know">Did You Know</a></li><li><a class="footerlink" href="/campaigns/corporate-bond-iap">Corporate Bond Funds</a></li><li><a class="footerlink" href="/campaigns/sip-in-debt-iap">SIP in Debt Funds</a></li><li><a class="footerlink" href="/campaigns/global-investing">Global Investing</a></li><li><a class="footerlink" href="/campaigns/women-and-investing">Women and Investing</a></li><br /><h5 id="knowledgeCenter">Tools</h5><li><a class="footerlink" href="/calculators/target-sip-calculator">Wealth Creation</a> </li><li><a class="footerlink" href="/calculators/retirement-calculator">Retirement Planning</a> </li><li><a class="footerlink" href="/calculators/dream-home-budget-calculator">Dream Home</a> </li><li><a class="footerlink" href="/calculators/child-education-plan-calculator">Child's Education</a> </li><li><a class="footerlink" href="/calculators/wedding-budget-calculator">Child's Marriage</a> </li><li><a class="footerlink" href="/calculators/travel-cost-calculator">Dream Vacation</a> </li><!-- <li><a href="/mutual-fund-scheme/mirae-asset-healthcare-fund">Fund manager blog and videos</a></li>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <li><a href="/downloads/market-insights">Market Insight</a></li> -->
+ </ul></div></div></div><hr class="footer-link-divider" /><div class="panel panel-default"><div class="panel-heading" id="headingFour" role="tab"><h4 class="panel-title"><a class="collapsed" aria-expanded="true" aria-controls="collapseCloseFour" href="#collapseCloseFour" data-parent="#accordionGroupClosed" data-toggle="collapse">Investor Hub
+</a>
+ </h4></div><div class="panel-collapse collapse" id="collapseCloseFour" role="tabpanel" aria-labelledby="headingFour"><div class="panel-body"><ul><li><a class="footerlink" href="https://transact.miraeassetmf.co.in" target="_blank">Transact Online</a></li><li><a class="footerlink" href="/calculators/dream-home-budget-calculator">Goal Calculators</a></li><li><a class="footerlink" href="/investor-hub/sms-service">SMS Services</a></li><li><a class="footerlink" href="/calculators">Calculators</a></li><li><a class="footerlink" href="https://transact.miraeassetmf.co.in/mnwclient/Admin/Login/Login" target="_blank">Statement of Account (SOA)</a></li><li><a class="footerlink" href="https://transact.miraeassetmf.co.in/investor/General/quickupdatecontactdetails.aspx" target="_blank">Update Contact details</a></li><li><a class="footerlink" href="/mutual-fund-scheme/nav-update">NAV updates</a></li><li><a class="footerlink" href="/mutual-fund-scheme/dividend-update">IDCW updates</a></li><li><a class="footerlink" target="_blank" href="https://www.cvlkra.com/Default.aspx">KYC check</a></li><li><a class="footerlink" href="/investor-hub/check-nominee">Check Nominee Details</a></li><li><a class="footerlink" href="/investor-hub/unclaimed-redemption">Check Unclaimed Dividend</a></li><li><a class="footerlink" href="/investor-hub/unclaimed-redemption">Check Unclaimed Redemption</a></li><li><a class="footerlink" href="/investor-hub/remuneration-disclosure">Remuneration Disclosure</a></li><li><a class="footerlink" href="/investor-hub/fund-manager-videos">Fund and Outlook Videos</a></li><li><a class="footerlink" href="/investor-hub/investor-awareness-program">Investor Awarness Programme</a></li><li><a class="footerlink" target="_blank" href="https://mfs.kfintech.com/panupdation/">Update PAN Details</a></li><li><a class="footerlink" target="_blank" href="https://smartodr.in/login">ODR Portal</a></li></ul></div></div></div><hr class="footer-link-divider" /><div class="panel panel-default"><div class="panel-heading" id="headingFive" role="tab"><h4 class="panel-title"><a class="collapsed" aria-expanded="true" aria-controls="collapseCloseFive" href="#collapseCloseFive" data-parent="#accordionGroupClosed" data-toggle="collapse">Partner Corner
+</a>
+ </h4></div><div class="panel-collapse collapse" id="collapseCloseFive" role="tabpanel" aria-labelledby="headingFive"><div class="panel-body"><ul><li><a class="footerlink" href="https://transact.miraeassetmf.co.in/mirae_portal/login" target="_blank">Distributor Initiated Transaction</a></li><!-- <li><a href="https://transact.miraeassetmf.co.in/miraedit" target="_blank">Empanel with us</a></li> -->
+ <li><a class="footerlink" href="https://transact.miraeassetmf.co.in/mirae_portal/login" target="_blank">Empanel with us</a></li><!-- <li><a href="https://magiq.miraeassetmf.co.in/login-reg">MAGiQ: Mirae Asset Great India Quiz</a></li> -->
+ <!-- <li><a href="/partner-corner/cobranded-collateral">Co-branded Collaterals</a></li> -->
+ <li><a class="footerlink" href="https://businessready.miraeassetmf.co.in/">Business Ready: Cobrand Collaterals</a></li><!--   <li><a href="/partner-corner/customize-arn">Customised ARN Links</a></li>-->
+ <li><a class="footerlink" href="/partner-corner/quiz-of-the-month">Quiz</a></li><!-- <li><a href="/partner-corner/archived-opinion-polls">Poll</a></li> -->
+ <!-- <li><a href="/investor-hub/investor-awareness-program">Investor Awarness Programme</a></li> -->
+ <!-- <li><a href="/downloads">Downloads</a></li> -->
+ <li><a class="footerlink" href="/partner-corner/cadre-distributors">New Cadre of Distributors</a></li><!-- <li><a href="/partner-corner/meeting-customized-requirements">Meeting customized requirements</a></li> -->
+ <!-- <li><a href="/partner-corner/wall-of-fame">Wall Of Fame</a></li> -->
+ <!-- <li><a href="/partner-connect">Partner Connect</a></li> -->
+ <!-- <li><a href="https://camonview.com/miraeasset/">Live Webinar</a></li> -->
+ <li><a class="footerlink" href="/partner-corner/the-big-leap">The Big Leap</a></li><li><a class="footerlink" href="https://t.me/+W7Ed6Ihx-dthMjk1" target="_blank">Join us on Telegram</a></li><!-- <li><a href="https://transact.miraeassetmf.co.in/miraedit/Mirae/DistributorLinkGeneration">Generate ARN link for Investors</a></li> -->
+ <!-- <li><a href="https://transact.miraeassetmf.co.in/miraedit/Mirae/RIALinkGeneration">Generate RIA Links</a></li> -->
+ <!--<li><a href="/educational-articles">IFA Articles</a></li>-->
+ </ul></div></div></div><hr class="footer-link-divider" /><div class="panel panel-default"><div class="panel-heading" id="headingSix" role="tab"><h4 class="panel-title"><a class="collapsed" aria-expanded="true" aria-controls="collapseCloseSix" href="#collapseCloseSix" data-parent="#accordionGroupClosed" data-toggle="collapse">Downloads
+</a>
+ </h4></div><div class="panel-collapse collapse" id="collapseCloseSix" role="tabpanel" aria-labelledby="headingSix"><div class="panel-body"><ul><li><a class="footerlink" href="/downloads/forms">Forms</a></li><li><a class="footerlink" href="/downloads/factsheet">Factsheet</a></li><li><a class="footerlink" href="/downloads/portfolio">Portfolio</a></li><!--<li><a class="footerlink" href="/downloads/marketing">Marketing Collaterals</a></li>-->
+ <li><a class="footerlink" href="/downloads/market-insights">Market Insight</a></li><li><a class="footerlink" href="/downloads/statutory-disclosure/addendum">Addendum</a></li><li><a class="footerlink" href="/downloads/statutory-disclosure/financials">Financials</a></li><li><a class="footerlink" href="/downloads/statutory-disclosure/transaction-details">Transaction Details</a></li><li><a class="footerlink" href="/downloads/statutory-disclosure/total-expense-ratio">Total Expense ratio</a></li><li><a class="footerlink" href="/downloads/statutory-disclosure/other-disclosure">Other Disclosures</a></li><li><a class="footerlink" href="/downloads/statutory-disclosure/valuation-policy">Valuation Policy</a></li><li><a class="footerlink" href="/downloads/statutory-disclosure/voting-policy">Voting Policy</a></li><li><a class="footerlink" href="/docs/default-source/default-document-library/tax-changes-post-union-budget-20244198463397924db58a246aac9a1be358.pdf" target="_blank">Tax Reckoner 2024-25</a></li><li><a class="footerlink" href="/downloads/statutory-disclosure/csr-policy">CSR</a></li><li><a class="footerlink" href="/docs/default-source/default-document-library/indian-holiday-list.pdf?sfvrsn=c58a2a4f_2" target="_blank">India Market- Non Business Days</a></li><li><a class="footerlink" href="/docs/default-source/default-document-library/global-markets--non-business-days.pdf" target="_blank">Global Market- Non Business Days</a></li><li><a class="footerlink" href="/docs/default-source/default-document-library/request-for-proposal-from-firms-for-internal-audit.pdf?sfvrsn=2c48c191_2" target="_blank">Request For Proposal</a></li><!-- <li><a href="/docs/default-source/default-document-library/u-s-market-non-business-days.pdf?sfvrsn=edb413dd_2" target="_blank">U.S. Market Non Business Days</a></li> -->
+ </ul></div></div></div><!--<div class="footer-rest-links">
+						<hr class="footer-link-divider" />
+							<a href="#">Investor Hub</a>
+						<hr class="footer-link-divider" />
+							<a href="#">Partner Corner</a>
+						<hr class="footer-link-divider" />
+							<a href="#">Contact us</a>
+						<hr class="footer-link-divider" />
+							<a href="#">Branch Locator</a>
+						<hr class="footer-link-divider" />
+					</div>-->
+ <a href="https://wa.me/918879444000?text=Hi" class="whats-wrap">
+ <div class="whats-app-icon"><img src="/images/default-source/default-album/whatsapp-30x30px.png" alt="WhatsApp" /></div><div class="whats-info"><p class="sm-text">Send "Hi" on whatsapp number</p><p class="number-text">8879444000</p></div></a>
+ </div><div class="row"><div class="col-md-12"><a class="scrollup" href="#"><i class="fa fa-chevron-up"></i></a></div></div></div></div></div><div class="container copyRightsSec" id="mobile-bottom-footer"><div class="row footer-bottom-row"><div class="col-md-6"><ul class="footerOtherLink text-center"><li><a class="footerlink" href="/terms-of-use">Terms of Use</a></li><li><a class="footerlink" href="/legal">Legal</a></li><li><a class="footerlink" href="/docs/default-source/default-document-library/privacy-statement_2024.pdf?sfvrsn=84cc42ce_2" target="_blank">Privacy Statement</a></li><!-- <li><a href="/docs/default-source/footer---privacy/policy-on-privacy-security-of-information_mirae.pdf" target="_blank">Privacy Policy</a></li> -->
+ <li><a class="footerlink" href="/disclaimer">Disclaimer</a></li><li><a class="footerlink" href="/partner-corner/risk-factor">Risk factors</a></li><li><a class="footerlink" href="/docs/default-source/footer---privacy/rules-and-regulations-for-access-or-usage-of-amc&#39;s-computers-resource-by-any-person_mirae.pdf" target="_blank">Policy on access or usage of the AMC's computer resource</a></li></ul></div><div class="col-md-6"><span class="copyRights">© <!--1997-<span class="yeartime"></span>-->Mirae Asset Financial Group. All rights reserved.
+                </span>
+ </div></div></div><!--mobile accordian footer end -->
+ <div class="container copyRightsSec" id="desktop-bottom-footer"><div class="row"><div class="col-md-6"><span class="copyRights text-center">© <!--1997-<span class="yeartime"></span>-->Mirae Asset Financial Group. All rights reserved.
+                </span>
+ </div><div class="col-md-6 text-end"><ul class="footerOtherLink"><li><a class="footerlink" href="/terms-of-use">Terms of Use</a></li><li><a class="footerlink" href="/legal">Legal</a></li><li><a href="/docs/default-source/default-document-library/privacy-statement_2024.pdf?sfvrsn=84cc42ce_2" target="_blank">Privacy Statement</a></li><!-- <li><a href="/docs/default-source/footer---privacy/policy-on-privacy-security-of-information_mirae.pdf" target="_blank">Privacy Policy</a></li> -->
+ <li><a class="footerlink" href="/disclaimer">Disclaimer</a></li><li><a class="footerlink" href="/partner-corner/risk-factor">Risk factors</a></li><li><a class="footerlink" href="/docs/default-source/footer---privacy/rules-and-regulations-for-access-or-usage-of-amc&#39;s-computers-resource-by-any-person_mirae.pdf" target="_blank">Policy on access or usage of the AMC's computer resource</a></li></ul></div><div class="col-md-12 text-center"><span class="copyRights">This website is best viewed in IE10+, Firefox 47+, Chrome 55+, Safari 5.0+ at 1024 X 768 pixels resolution.</span></div></div></div></footer><div class="wishToInvest formValid"><form><div class="wishToInvestWrap"><h2>Request a Callback </h2><a class="iconClose"><span aria-hidden="true">x</span>
+ <span class="sr-only" aria-label="Close">Close</span>
+ </a>
+ <div class="col-md-12"><div class="form-group inputbox"><div class=" feilds"><i class="fa fa-user-o iconCont" aria-hidden="true"></i><input class="form-control required alpha nameFormField" aria-describedby="footerNameError" type="text" maxlength="50" placeholder="Enter Name" /></div><div class="error_message" id="footerNameError">Please Enter Name</div></div></div><div class="col-md-12"><div class="form-group inputbox"><div class=" feilds"><i class="fa fa-envelope-o iconCont" aria-hidden="true"></i><input class="form-control required email emailFormField" aria-describedby="footerMailError" type="text" maxlength="50" placeholder="Enter Email ID" /></div><div class="error_message" id="footerMailError">Please Enter Email ID</div></div></div><div class="col-md-12"><div class="form-group inputbox"><div class=" feilds"><i class="fa fa-phone iconCont" aria-hidden="true"></i><input class="form-control required mobileNumber numbersOnly mobileFormField" aria-describedby="footerMobileError" type="text" maxlength="10" placeholder="Enter Mobile Number" /></div><div class="error_message" id="footerMobileError">Please Enter Mobile Number</div></div></div><div class="col-md-12"><div class="form-group inputbox citysec"><div class=" feilds"><i class="fa fa-map-marker iconCont" aria-hidden="true"></i><input class="form-control required alpha cityFormField cityAutoFill" aria-describedby="footerCityError" type="text" maxlength="50" placeholder="Enter City" /><input class="cityHiddenValue" type="hidden" /></div><div class="error_message" id="footerCityError">Please Enter City</div></div></div><div class="col-md-12"><div class="form-group inputbox FundSec"><div class="feilds"><select class="form-control required fundnameFormField" aria-describedby="footerFundError" placeholder="Select Fund Name"></select><!--<input type="text" class="form-control required alpha fundnameFormField fundnameAutoFill" placeholder="Enter Fund Name" maxlength="100" />
+                                                                                                                                                                                                                                                                                                         <input type="hidden" class="fundnameHiddenValue" />-->
+ </div><div class="error_message" id="footerFundError">Please Select Fund Name</div></div></div><div class="col-md-12"><div class="captcha"><div class="form-group inputbox "><div class=" feilds"><div class="g-recaptcha-second" id="RecaptchaFieldWishToInvest" aria-describedby="footerCaptchaError" style="width:100%;max-width:320px;transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;" data-sitekey="6LcbAtIUAAAAAG4s-BYveVlAEyNH7hraa3DBWiSh"> </div><input name="wishToInvestCaptcha" class="hiddenRecaptcha" id="wishToInvestCaptcha" type="hidden" /></div><div class="error_message" id="footerCaptchaError">Please enter Captcha</div></div></div></div><div class="col-md-12"><div class="valid_Dates fieldError" tabindex="0">Please enter all required fields</div></div><div class="col-md-12"><p class="wishToInvestDiscalimer">By entering your personal details, you hereby authorize Mirae Asset Mutual Fund and/or its authorized service provider(s) to contact you and this will override any NDNC registration made by you.</p></div><div class="col-md-12"><div class="footer_submit submitBt commanBtn"><div class="btnloadSec"><button class="btnWishToinvest loadBtn" id="wishToInvestSubmit" type="button"><span class="btnText">Submit <i class="fa fa-angle-right " aria-hidden="true"></i></span>
+ </button><div class="btnloader"> </div></div></div></div></div></form></div><div class="formOverlay"> </div><!-- Modal Invest Now -->
+<div tabindex="-1" class="modal fade thankYouPopup" id="popInvestNow" role="dialog" aria-hidden="true" aria-labelledby="exampleModalCenterTitle"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content"><div class="modal-header"><button class="close closeBtn" aria-label="Close" type="button" data-dismiss="modal"><span aria-hidden="true">×</span>
+</button></div><div class="modal-body"><h2>Thank you <br />for showing interest
+                </h2><p>Our representative will get in touch with you shortly.</p></div></div></div></div><!-- Modal WISH TO INVEST -->
+<div tabindex="-1" class="modal fade thankYouPopup" id="popWishToInvest" role="dialog" aria-hidden="true" aria-labelledby="exampleModalCenterTitle"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content"><div class="modal-header"><button class="close closeBtn" id="wishToInvestClosebtn" aria-label="Close" type="button" data-dismiss="modal"><span aria-hidden="true">×</span>
+</button></div><div class="modal-body"><h2>Thank you <br />for showing interest
+                </h2><p>Our representative will get in touch with you shortly.</p></div></div></div></div><!-- Modal GET IN TOUCH -->
+<div tabindex="-1" class="modal fade thankYouPopup" id="popGetInTouch" role="dialog" aria-hidden="true" aria-labelledby="exampleModalCenterTitle"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content"><div class="modal-header"><button class="close closeBtn" id="getInTouchClosebtn" aria-label="Close" type="button" data-dismiss="modal"><span aria-hidden="true">×</span>
+</button></div><div class="modal-body"><h2>Thank you <br />for submitting your request
+                </h2><p>Our representative will get in touch with you shortly.</p></div></div></div></div><div tabindex="-1" class="modal fade thankYouPopup popGetInTouchcalc" id="popGetInTouchcalc" role="dialog" aria-hidden="true" aria-labelledby="exampleModalCenterTitle"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content"><div class="modal-header"><button class="close closeBtn" aria-label="Close" type="button" data-dismiss="modal"><span aria-hidden="true">×</span>
+</button></div><div class="modal-body"><h2>Our Calculation Formula</h2><p class="formulatext">If Inflation rate is selected then
+                    <br />futureValue = Future value considering the inflation rate
+                </p><p class="formulatext">else
+ <br />Calculate on current value.
+                </p><p class="formulatext">SIPAmount = parseInt(-((Rate of interest / 12) * (-futureValue + (interest amount on loan * 0))) / ((-1 + interest amount on loan) * (1 + (rate of interest / 12))));</p></div></div></div></div><div tabindex="-1" class="modal fade thankYouPopup popGetInTouchcalc" id="popGetInTouchcalc1" role="dialog" aria-hidden="true" aria-label="exampleModalCenterTitle"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content"><div class="modal-header"><button class="close closeBtn" aria-label="Close" type="button" data-dismiss="modal"><span aria-hidden="true">×</span>
+</button></div><div class="modal-body"><h2>Our Calculation Formula</h2><p class="formulatext">Annual Return = (Last NAV of the year - Last NAV of the previous year) / Last NAV of the previous year
+                </p><p>For more details, please visit the AMFI website</p></div></div></div></div><div class="mangeingCookies hidden" style="display:none;"><div class="container"><div class="row"><div class="col-md-9 textCont"><p>Our website employs cookies to collect anonymous information in order to offer you the best browsing experience and allow us to better understand how you navigate the site. You can modify your <a href="#">cookie settings</a> at any time.
+                </p><p>By clicking “Accept” and viewing this website, you consent to the use of cookies.</p><p>To read the Policy, <a href="https://www.miraeassetmf.co.in/docs/default-source/footer---privacy/privacy-statement_website.pdf">click here</a></p></div><div class="col-md-3 buttonLook text-end"><a class="closeIcon" href="javascript:void(0)"><span aria-hidden="true">x</span>
+<span class="sr-only" aria-label="Close">Close</span>
+</a>
+ <div class="btnloadSec"><a class="submitBt" href="#">Accept</a>
+ </div></div></div></div></div><div tabindex="-1" class="modal fade thankYouPopup" id="external-redirect" role="dialog" aria-hidden="true" aria-labelledby="exampleModalCenterTitle"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content"><div class="modal-header"><button class="close closeBtn" aria-label="Close" type="button" data-dismiss="modal"><span aria-hidden="true">×</span>
+</button></div><div class="modal-body"><h2>Redirecting...
+ </h2><!-- <p>This section is under development, we are redirecting you to our old website</p>-->
+ <p>&nbsp;</p></div></div></div></div><!--Added for Cobranded Module-->
+<div tabindex="-1" class="modal fade thankYouPopup" id="popCobrandedCollateral" role="dialog"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content"><div class="modal-header"><button class="close closeBtn" aria-label="Close" type="button" data-dismiss="modal"><span aria-hidden="true">×</span>
+</button></div><div class="modal-body"><h2>Thank you sharing your details.
+                </h2><p>We will email you the cobranding collateral shortly.</p></div></div></div></div></div>    
+
+</div> <script type="text/javascript" src="/js/jquery-3.6.4.min.js"></script> <script src="/main.js?v=8DFqE_Vn5BBDeQG1X3NsSz2Fa04fbeDRPxhNksOI8to1"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.6.347/pdf.min.js"></script> <script src="/assets/customjs/pdfviewer.jquery.js"></script> 
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+$('document').ready(function(){
+
+smartech('create', 'ADGMOT35CHFLVDHBJNIG50K9683PG5GNDASCPOQDM5P94VGC4900' );
+smartech('register', '0ebc80380e194934c8810114060dea4b');
+smartech('identify', '');
+smartech('dispatch',1,{});
+
+  })
+</script>
+
+
+
+
+
+
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.6.347/pdf.min.js"></script><script type="text/javascript" src="/assets/customjs/pdfviewer.jquery.js"></script><script type="text/javascript" src="/js/bootstrap.js"></script><script type="text/javascript" src="/assets/customjs/automatedYear.js"></script> <script type="text/javascript">
+        _linkedin_partner_id = "528211";
+        window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+        window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+    </script> <script type="text/javascript">
+        (function () {
+            var s = document.getElementsByTagName("script")[0];
+            var b = document.createElement("script");
+            b.type = "text/javascript"; b.async = true;
+            b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+            s.parentNode.insertBefore(b, s);
+        })();
+    </script> <noscript> <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=528211&fmt=gif" /> </noscript> </body> </html>
