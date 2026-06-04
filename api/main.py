@@ -180,3 +180,9 @@ def get_amcs():
         raise HTTPException(503, "Data not loaded")
     counts = Counter(f.get("amc", "") for f in _cache["funds"])
     return [{"amc": k, "count": v} for k, v in sorted(counts.items()) if k]
+
+if __name__ == "__main__":
+    import uvicorn
+    import os
+    port = int(os.environ.get("PORT", 8080))
+    uvicorn.run(app, host="0.0.0.0", port=port)
