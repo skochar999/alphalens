@@ -503,8 +503,12 @@ def validate_attribution(attr_df: pd.DataFrame) -> None:
 
 def main():
     p = argparse.ArgumentParser(description="Brinson holdings-based attribution for IEC-1 FundLens")
+    # --data-dir is the canonical flag the pipeline (run_monthly_update.py)
+    # passes to every step. --mf-data is kept as a backward-compatible alias.
+    p.add_argument("--data-dir",     default=None,
+                   help="Path to mf_data directory (pipeline passes this)")
     p.add_argument("--mf-data",      default="./mf_data",
-                   help="Path to mf_data directory (default: ./mf_data)")
+                   help="Alias for --data-dir (default: ./mf_data)")
     p.add_argument("--min-coverage", type=float, default=0.30,
                    help="Min equity coverage fraction to include fund-month (default: 0.30)")
     p.add_argument("--min-months",   type=int, default=3,
@@ -515,7 +519,7 @@ def main():
     if args.debug:
         logging.getLogger().setLevel(logging.DEBUG)
 
-    mf_data = Path(args.mf_data)
+    mf_data = Path(args.data_dir or args.mf_data)
 
     # ── Step 1: Run attribution ────────────────────────────────────────────
     log.info("Step 1: Computing Brinson attribution …")
