@@ -137,12 +137,25 @@ def run(data_dir: Path) -> None:
         hat = pd.read_parquet(hat_path)
         log.info(f"holdings_attribution: {len(hat)} monthly rows, "
                  f"{hat['scheme_code'].nunique()} funds")
+        # Winsorise monthly stock-selection contribution to a physically
+        # plausible band before averaging. A single month cannot beat its
+        # benchmark by more than ~25% on stock picking alone; values beyond
+        # that are data errors (e.g. a garbled holdings snapshot showing
+        # -375% in one month) and otherwise blow up the annualised figure.
+        MONTHLY_PICK_CLIP = 0.25
+        n_clipped = int((hat["stock_selection"].abs() > MONTHLY_PICK_CLIP).sum())
+        if n_clipped:
+            log.info(f"  Winsorised {n_clipped} month-rows with "
+                     f"|stock_selection| > {MONTHLY_PICK_CLIP:.0%} (data errors)")
+        hat["stock_selection_clip"] = hat["stock_selection"].clip(
+            -MONTHLY_PICK_CLIP, MONTHLY_PICK_CLIP
+        )
         pick_stats = (
             hat.groupby("scheme_code")
                .agg(
-                   pick_ann_pp   = ("stock_selection", lambda x: x.mean() * 12 * 100),
-                   pick_hit_rate = ("stock_selection", lambda x: (x > 0).mean()),
-                   n_pick_months = ("stock_selection", "count"),
+                   pick_ann_pp   = ("stock_selection_clip", lambda x: x.mean() * 12 * 100),
+                   pick_hit_rate = ("stock_selection_clip", lambda x: (x > 0).mean()),
+                   n_pick_months = ("stock_selection_clip", "count"),
                )
                .reset_index()
         )
@@ -184,8 +197,20 @@ def run(data_dir: Path) -> None:
         active["s_track"] = 0.0
 
         # ── Holdings-aware sub-scores (only for funds with pick stats) ──
-        has_pick = active["pick_ann_pp"].notna() & active["pick_hit_rate"].notna()
-        log.info(f"Active funds with pick stats: {has_pick.sum()} / {len(active)}")
+        # Require >= MIN_PICK_MONTHS of holdings history before trusting the
+        # stock-selection signal — thin histories produce wild annualised alpha
+        # (e.g. -294%). Funds below the floor fall back to NAV-only scoring.
+        MIN_PICK_MONTHS = 12
+        if {"pick_ann_pp", "pick_hit_rate", "n_pick_months"}.issubset(active.columns):
+            has_pick = (
+                active["pick_ann_pp"].notna()
+                & active["pick_hit_rate"].notna()
+                & (active["n_pick_months"] >= MIN_PICK_MONTHS)
+            )
+        else:
+            has_pick = pd.Series(False, index=active.index)
+        log.info(f"Active funds with >= {MIN_PICK_MONTHS}mo holdings (stock-picking scored): "
+                 f"{has_pick.sum()} / {len(active)}")
 
         if has_pick.sum() > 0:
             # Rank pick metrics within the subset that has data
@@ -244,7 +269,10 @@ def run(data_dir: Path) -> None:
 
     def cat_rank(grp):
         grp = grp.copy()
-        grp["cat_rank"] = grp["total_score"].rank(ascending=False, method="min").astype(int)
+        ranks = grp["total_score"].rank(ascending=False, method="min")
+        # Funds with no/insufficient data have NaN total_score; rank them last
+        # instead of crashing on .astype(int) (IntCastingNaNError).
+        grp["cat_rank"] = ranks.fillna(len(grp)).astype(int)
         grp["cat_size"]  = len(grp)
         return grp
 

@@ -10,9 +10,16 @@ Orchestrates the full FundLens monthly refresh:
                                       holdings/{YYYY-MM}.parquet
   Step 1  update_nav_monthly.py     — fetch new month-end NAVs from mfapi.in
   Step 2  holdings_attribution.py   — recompute holdings-based attribution
+  Step 2.5 remap_holdings_to_regular.py — remap holdings scheme codes from
+                                      direct → regular plan (step 2 always
+                                      regenerates them in direct codes; the
+                                      scored universe uses regular codes)
   Step 3  compute_benchmark_metrics.py  — recompute benchmark-relative metrics
   Step 4  compute_scored_funds.py   — rescore all funds + decomposition
   Step 5  build_fundlens_v3.py      — rebuild HTML dashboard
+  Step 5.5 generate_api_json.py     — export funds.json + stats.json to
+                                      api/data/ for the Railway API + Vercel
+                                      frontend (commit + push to go live)
 
 Run this on the 15th of each month (holdings data is typically published
 by AMCs within the first 10 days of the following month).
@@ -44,12 +51,14 @@ HERE     = Path(__file__).parent
 DATA_DIR = HERE / "mf_data"
 
 STEPS = {
-    0: ("Fetch AMC holdings",      "fetch_new_holdings.py"),
-    1: ("Fetch NAV data",          "update_nav_monthly.py"),
-    2: ("Recompute holdings attr", "holdings_attribution.py"),
-    3: ("Recompute bench metrics", "compute_benchmark_metrics.py"),
-    4: ("Rescore all funds",       "compute_scored_funds.py"),
-    5: ("Rebuild HTML",            "build_fundlens_v3.py"),
+    0:   ("Fetch AMC holdings",      "fetch_new_holdings.py"),
+    1:   ("Fetch NAV data",          "update_nav_monthly.py"),
+    2:   ("Recompute holdings attr", "holdings_attribution.py"),
+    2.5: ("Remap holdings → regular","remap_holdings_to_regular.py"),
+    3:   ("Recompute bench metrics", "compute_benchmark_metrics.py"),
+    4:   ("Rescore all funds",       "compute_scored_funds.py"),
+    5:   ("Rebuild HTML",            "build_fundlens_v3.py"),
+    5.5: ("Export API JSON",         "generate_api_json.py"),
 }
 
 
@@ -183,17 +192,26 @@ def main() -> int:
         if step_num == 2 and args.skip_holdings:
             log.info(f"\n[{step_num}/5] {label} — SKIPPED (--skip-holdings)")
             continue
+        # If step 2 didn't run, holdings weren't regenerated in direct codes, so
+        # the remap has nothing fresh to convert — skip it (its own guard also
+        # protects against double-remapping already-regular data).
+        if step_num == 2.5 and args.skip_holdings:
+            log.info(f"\n[{step_num}/5] {label} — SKIPPED (--skip-holdings)")
+            continue
 
         log.info(f"\n[{step_num}/5] {label} …")
 
         # Hard prerequisite check immediately before each step
         step_prereqs = {
-            0: [],   # fetch_new_holdings needs no parquet prereqs
-            1: ["fund_meta.parquet"],
-            2: ["nav_monthly.parquet", "fund_meta.parquet"],
-            3: ["nav_monthly.parquet", "fund_meta.parquet"],
-            4: ["benchmark_metrics.parquet"],
-            5: ["scored_funds.parquet"],
+            0:   [],   # fetch_new_holdings needs no parquet prereqs
+            1:   ["fund_meta.parquet"],
+            2:   ["nav_monthly.parquet", "fund_meta.parquet"],
+            2.5: ["holdings_attribution.parquet", "fund_meta.parquet",
+                  "fund_meta_direct_backup.parquet"],
+            3:   ["nav_monthly.parquet", "fund_meta.parquet"],
+            4:   ["benchmark_metrics.parquet"],
+            5:   ["scored_funds.parquet"],
+            5.5: ["scored_funds.parquet"],
         }
         missing_now = [f for f in step_prereqs.get(step_num, []) if not (data_dir / f).exists()]
         if missing_now:
