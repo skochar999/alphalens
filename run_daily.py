@@ -191,9 +191,31 @@ def main() -> int:
     # Step 1 — Fetch universe fundamentals
     # ------------------------------------------------------------------ #
     from inec1.data.pipeline import DataPipeline
-    from inec1.data.universe import load_from_nse_csv
+    from inec1.data.universe import load_from_nse_csv, get_nifty500
 
-    tickers = load_from_nse_csv("/Users/siddharthakochar/Downloads/ind_nifty500list.csv")
+    # Resolve the Nifty 500 universe from the first available source so the
+    # daily run never breaks on a missing file:
+    #   1) project-local copy (mf_data/ind_nifty500list.csv) — stable, preferred
+    #   2) the original ~/Downloads CSV (legacy location)
+    #   3) the built-in list in inec1/data/universe.py (always works, lower coverage)
+    _here = Path(__file__).parent
+    _csv_candidates = [
+        _here / "mf_data" / "ind_nifty500list.csv",
+        Path("/Users/siddharthakochar/Downloads/ind_nifty500list.csv"),
+    ]
+    tickers = None
+    for _csv in _csv_candidates:
+        if _csv.exists():
+            tickers = load_from_nse_csv(_csv)
+            log.info(f"  Universe: {len(tickers)} tickers from {_csv}")
+            break
+    if tickers is None:
+        tickers = get_nifty500()
+        log.warning(
+            f"  Universe: no NSE CSV found — using built-in list ({len(tickers)} "
+            f"tickers). To refresh constituents, drop an updated "
+            f"ind_nifty500list.csv into mf_data/."
+        )
 
     log.info(f"\n[1/5] Fetching fundamental data ({len(tickers)} tickers) …")
 
