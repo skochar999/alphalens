@@ -184,7 +184,14 @@ def run(data_dir: Path) -> None:
     # ── Score active funds ──
     active = df[~is_index].copy()
     if len(active) > 0:
-        bd_col = "beta_drift" if "beta_drift" in active.columns else None
+        # Only use beta_drift if the column exists AND has data. fund_metrics
+        # can be absent or keyed to a different universe (e.g. after the
+        # direct→regular switch), leaving beta_drift all-NaN — in which case its
+        # median is NaN and the steadiness score would poison every total_score.
+        # Fall back to a neutral 50 so scoring degrades gracefully.
+        bd_col = ("beta_drift"
+                  if "beta_drift" in active.columns and active["beta_drift"].notna().any()
+                  else None)
 
         # Shared sub-scores (computed across full active universe for peer-relative ranking)
         active["s_outperf"] = percentile_rank(active["net_active_ann"].fillna(-9))

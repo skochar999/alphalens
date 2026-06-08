@@ -59,7 +59,9 @@ def build_funds(scores: pd.DataFrame) -> list:
             "score":    _f(r.get("total_score"), 1),
             "aret":     _pct(r.get("net_active_ann") or r.get("active_ann"), 1),
             "hrate":    _r0((r.get("hit_rate") or 0) * 100),
-            "pickAnn":  _pct(r.get("pick_ann_pp") or r.get("d_pick"), 1),
+            # pick_ann_pp is already in annualised percentage points (it's
+            # computed as mean * 12 * 100), so do NOT multiply by 100 again.
+            "pickAnn":  _f(r.get("pick_ann_pp"), 1),
             "ter":      _pct(r.get("ter_est"), 2),
             "ret":      _pct(r.get("ann_ret") or r.get("net_ann_ret") or r.get("total_return_ann"), 1),
             "navOnly":  bool(r["nav_only"]) if pd.notna(r.get("nav_only")) else True,
