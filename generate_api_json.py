@@ -30,22 +30,45 @@ log = logging.getLogger("alphapicker.export")
 HERE = Path(__file__).parent
 
 
+def _nonfinite(v) -> bool:
+    """True for None, NaN, +Inf, -Inf. These must become JSON null — a raw
+    NaN/Infinity token is invalid JSON and makes the API 500 on serialization."""
+    if v is None:
+        return True
+    try:
+        return not np.isfinite(float(v))
+    except (TypeError, ValueError):
+        return True
+
+
 def _pct(v, d=1):
-    if v is None or (isinstance(v, float) and np.isnan(v)):
+    if _nonfinite(v):
         return None
     return round(float(v) * 100, d)
 
 
 def _f(v, d=2):
-    if v is None or (isinstance(v, float) and np.isnan(v)):
+    if _nonfinite(v):
         return None
     return round(float(v), d)
 
 
 def _r0(v):
-    if v is None or (isinstance(v, float) and np.isnan(v)):
+    if _nonfinite(v):
         return None
     return int(round(float(v)))
+
+
+def _sanitize(obj):
+    """Recursively replace any non-finite float (NaN/Inf) with None so the
+    serialized JSON is always valid. Belt-and-suspenders for the API."""
+    if isinstance(obj, dict):
+        return {k: _sanitize(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [_sanitize(v) for v in obj]
+    if isinstance(obj, float) and not np.isfinite(obj):
+        return None
+    return obj
 
 
 def build_funds(scores: pd.DataFrame) -> list:
@@ -81,8 +104,13 @@ def build_stats(scores: pd.DataFrame) -> dict:
     n_funds = len(active)
     pct_pos = round(float((active["net_active_ann"] > 0).mean() * 100)) \
         if "net_active_ann" in active.columns else 0
-    avg_ret = round(float(active["ann_ret"].mean() * 100), 1) \
-        if "ann_ret" in active.columns else 0
+    # Drop inf/-inf before averaging so a single fund with a glitched (infinite)
+    # annualised return can't poison the mean into Infinity (invalid JSON).
+    avg_ret = 0
+    if "ann_ret" in active.columns:
+        ar = active["ann_ret"].replace([np.inf, -np.inf], np.nan)
+        m = ar.mean()
+        avg_ret = round(float(m) * 100, 1) if pd.notna(m) else 0
 
     cat_beat = {}
     if "category_display" in active.columns and "net_active_ann" in active.columns:
@@ -155,14 +183,20 @@ def main() -> int:
     # Sort by score descending
     funds.sort(key=lambda x: (x.get("score") is None, -(x.get("score") or 0)))
 
-    # Write JSON files
+    # Write JSON files. allow_nan=False makes json.dumps RAISE on any stray
+    # NaN/Infinity instead of writing an invalid token — _sanitize first
+    # converts any non-finite float to null so the output is always valid JSON
+    # (a NaN/Infinity token is what was 500-ing the /api/funds and /api/stats
+    # endpoints at serialization time).
     funds_out = api_data / "funds.json"
     stats_out = api_data / "stats.json"
 
-    funds_out.write_text(json.dumps(funds, ensure_ascii=False, separators=(",", ":")),
-                         encoding="utf-8")
-    stats_out.write_text(json.dumps(stats, ensure_ascii=False, separators=(",", ":")),
-                         encoding="utf-8")
+    funds_out.write_text(
+        json.dumps(_sanitize(funds), ensure_ascii=False, separators=(",", ":"), allow_nan=False),
+        encoding="utf-8")
+    stats_out.write_text(
+        json.dumps(_sanitize(stats), ensure_ascii=False, separators=(",", ":"), allow_nan=False),
+        encoding="utf-8")
 
     log.info(f"✓ {len(funds)} funds → {funds_out}")
     log.info(f"✓ stats → {stats_out}")
