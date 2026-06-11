@@ -105,18 +105,17 @@ def main() -> None:
     log.info(f"Regular meta: {len(regular)} schemes")
 
     # ── Idempotency guard ────────────────────────────────────────────────
-    # This remap is NOT idempotent: it maps DIRECT codes → REGULAR codes using
-    # the direct-plan name lookup. If the holdings file is ALREADY in regular
-    # codes (e.g. a stray second run), none would be found in direct_lookup and
-    # every row would be dropped — wiping the holdings. Detect that and bail.
+    # Codes ALREADY in the regular universe (e.g. holdings sourced directly for
+    # the regular plan — the Phase-1+ AMCs) are passed through unchanged in the
+    # loop below, so mixed direct+regular holdings remap safely and this step is
+    # idempotent. Only bail if EVERYTHING is already regular (nothing to map).
     regular_code_set = set(regular["scheme_code"].astype(int))
     ha_code_set      = set(int(c) for c in ha["scheme_code"].unique())
     already_regular  = len(ha_code_set & regular_code_set) / max(len(ha_code_set), 1)
-    if already_regular >= 0.5:
-        log.warning(
-            f"Holdings appear ALREADY remapped to regular codes "
-            f"({already_regular:.0%} overlap with regular meta). "
-            f"Skipping remap to avoid wiping data — nothing to do."
+    if already_regular >= 0.99:
+        log.info(
+            f"Holdings already fully regular-coded "
+            f"({already_regular:.0%} in regular meta) — nothing to remap."
         )
         return
 
@@ -144,6 +143,11 @@ def main() -> None:
 
     for code in ha_codes:
         code = int(code)
+        if code in regular_code_set:
+            # Already a regular-plan code (holdings sourced directly for the
+            # regular universe) — keep as-is, no mapping needed.
+            code_map[code] = code
+            continue
         if code not in direct_lookup:
             neither.append(code)
             continue
