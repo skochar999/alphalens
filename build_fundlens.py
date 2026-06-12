@@ -247,10 +247,22 @@ def prepare_leaderboard(scores: pd.DataFrame, attr: pd.DataFrame) -> tuple[list,
 # HTML
 # ---------------------------------------------------------------------------
 
+def _strip_nulls(obj):
+    """Drop None-valued keys recursively before JSON-embedding. In JS,
+    `obj.missing` is undefined, and `undefined == null` is true, so every
+    `x != null` / truthiness / `?? fallback` check behaves identically —
+    but the page sheds hundreds of KB of '"key":null' baggage."""
+    if isinstance(obj, dict):
+        return {k: _strip_nulls(v) for k, v in obj.items() if v is not None}
+    if isinstance(obj, list):
+        return [_strip_nulls(x) for x in obj]
+    return obj
+
+
 def build_html(stats: dict, leaderboard: list, attr_by_fund: dict) -> str:
     tale = stats["tale"]
-    scores_json = json.dumps(leaderboard, separators=(",", ":"))
-    attr_json   = json.dumps(attr_by_fund, separators=(",", ":"))
+    scores_json = json.dumps(_strip_nulls(leaderboard), separators=(",", ":"))
+    attr_json   = json.dumps(_strip_nulls(attr_by_fund), separators=(",", ":"))
     stats_json  = json.dumps(stats, separators=(",", ":"))
 
     # Beta delta string for the tale
@@ -551,6 +563,8 @@ footer strong {{ color:var(--text); }}
 
 @media(max-width:700px) {{
   .hero h1 {{ font-size:28px; }}
+  .problem-grid {{ grid-template-columns:1fr !important; }}
+  .pillar-grid {{ grid-template-columns:1fr !important; }}
   .tale-grid {{ grid-template-columns:1fr; }}
   .tale-beta-compare {{ grid-template-columns:1fr 1fr; }}
   .score-cards {{ grid-template-columns:1fr; }}
@@ -579,15 +593,16 @@ footer strong {{ color:var(--text); }}
         <div class="hero-eyebrow">India's most data-driven mutual fund rankings · Updated daily</div>
         <h1>Most mutual funds<br>lose to the index.<br><em>We find the ones that don't.</em></h1>
         <p class="hero-sub">
-          Over 10 years, most active funds in India have failed to beat a simple index fund.
-          But the ones that do outperform can make a meaningful difference to your wealth.
-          AlphaLens identifies them — daily.
+          Most funds are still sold on brand names, star ratings and last year's chart —
+          the very things research shows predict <strong>nothing</strong>.
+          AlphaLens finds the genuine outperformers the way a quant hedge fund would:
+          by reading what's actually inside every portfolio, every month.
         </p>
 
         <!-- SPIVA stats — large, glaring -->
         <div style="margin-bottom:24px">
           <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:var(--muted);margin-bottom:16px">
-            Over 10 years, how many active funds beat the index? · SPIVA India 2025
+            Over 10 years, how many active funds beat the index? · SPIVA (S&amp;P Indices Versus Active Funds) India 2025
           </div>
           <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:10px">
             <div style="background:rgba(220,38,38,0.06);border:1.5px solid rgba(220,38,38,0.2);border-radius:12px;padding:20px 18px">
@@ -664,6 +679,46 @@ footer strong {{ color:var(--text); }}
             </radialGradient>
           </defs>
         </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: THE PROBLEM — HOW FUNDS ARE SOLD TODAY -->
+<section style="background:var(--bg2);border-top:1px solid var(--border);padding:72px 0">
+  <div class="container">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start" class="problem-grid">
+      <div>
+        <div class="section-label">The problem</div>
+        <h2 class="section-title">How funds are sold today</h2>
+        <p class="section-body" style="margin-bottom:18px">
+          Walk into any distributor or wealth manager's office and ask why they recommend a fund.
+          The answers are always the same:
+        </p>
+        <div style="display:flex;flex-direction:column;gap:10px">
+          <div style="background:rgba(220,38,38,0.05);border:1px solid rgba(220,38,38,0.15);border-radius:10px;padding:12px 16px;font-size:14px;color:var(--text)">★ "It's a 5-star rated fund" <span style="color:var(--muted)">— ratings built on past returns</span></div>
+          <div style="background:rgba(220,38,38,0.05);border:1px solid rgba(220,38,38,0.15);border-radius:10px;padding:12px 16px;font-size:14px;color:var(--text)">📈 "Look at last year's performance" <span style="color:var(--muted)">— statistically indistinguishable from luck</span></div>
+          <div style="background:rgba(220,38,38,0.05);border:1px solid rgba(220,38,38,0.15);border-radius:10px;padding:12px 16px;font-size:14px;color:var(--text)">🏛 "It's a trusted house" <span style="color:var(--muted)">— brand familiarity, not evidence</span></div>
+        </div>
+        <p class="section-body" style="margin-top:18px">
+          Qualitative judgement, dressed up as advice. The SPIVA numbers above show where it leads:
+          <strong>most recommended funds lose to a simple index fund.</strong>
+        </p>
+      </div>
+      <div>
+        <div class="section-label" style="color:var(--green)">What we do instead</div>
+        <h2 class="section-title">The machinery, not the marketing</h2>
+        <p class="section-body" style="margin-bottom:18px">
+          Every month, every fund must disclose every holding it owns. Almost nobody reads these.
+          <strong>We read all of them</strong> — 400+ funds, 60,000+ positions, every single month —
+          and run them through a multi-factor risk model: the same class of machinery quant hedge
+          funds use to separate skill from market luck.
+        </p>
+        <div style="display:flex;flex-direction:column;gap:10px">
+          <div style="background:rgba(5,150,105,0.05);border:1px solid rgba(5,150,105,0.18);border-radius:10px;padding:12px 16px;font-size:14px;color:var(--text)">🔬 Strip out what the market gave, what style tilts gave, what sector bets gave</div>
+          <div style="background:rgba(5,150,105,0.05);border:1px solid rgba(5,150,105,0.18);border-radius:10px;padding:12px 16px;font-size:14px;color:var(--text)">📊 What remains is the manager — then we apply the statistician's test: skill, or noise?</div>
+          <div style="background:rgba(5,150,105,0.05);border:1px solid rgba(5,150,105,0.18);border-radius:10px;padding:12px 16px;font-size:14px;color:var(--text)">✅ Every signal in our score passed out-of-sample testing on Indian data — famous published signals that failed were rejected</div>
+        </div>
       </div>
     </div>
   </div>
@@ -768,6 +823,55 @@ footer strong {{ color:var(--text); }}
         <div style="font-size:36px;font-weight:800;color:var(--accent)">Daily</div>
         <div style="font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-top:4px">Score updates</div>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: THE ALPHALENS SCORE — THREE PILLARS -->
+<section style="background:var(--bg);border-top:1px solid var(--border);padding:72px 0">
+  <div class="container">
+    <div style="text-align:center;max-width:620px;margin:0 auto 40px">
+      <div class="section-label">The AlphaLens Score</div>
+      <h2 class="section-title">Three things predict future outperformance. We score all three.</h2>
+      <p style="font-size:14px;color:var(--muted);line-height:1.8;margin-top:10px">
+        Each pillar is grounded in published academic research and validated on Indian fund data
+        before it earns a place in the score.
+      </p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px" class="pillar-grid">
+      <div style="background:var(--bg3);border:1px solid var(--border);border-radius:14px;padding:26px">
+        <div style="font-size:30px;font-weight:800;color:var(--accent);letter-spacing:-1px">45%</div>
+        <div style="font-size:16px;font-weight:800;color:var(--text);margin:6px 0 10px">Skill</div>
+        <p style="font-size:13px;color:var(--muted);line-height:1.75;margin:0">
+          Is the outperformance real, or lucky? We measure the <strong style="color:var(--text)">statistical consistency</strong>
+          of pure stock-picking — after removing market, style and sector effects via our multi-factor
+          risk model — and how much of the fund's behaviour can't be explained by factors at all.
+          Consistent skill persists; raw returns don't.
+        </p>
+      </div>
+      <div style="background:var(--bg3);border:1px solid var(--border);border-radius:14px;padding:26px">
+        <div style="font-size:30px;font-weight:800;color:var(--accent);letter-spacing:-1px">45%</div>
+        <div style="font-size:16px;font-weight:800;color:var(--text);margin:6px 0 10px">Conviction</div>
+        <p style="font-size:13px;color:var(--muted);line-height:1.75;margin:0">
+          Does the manager act like they believe it? <strong style="color:var(--text)">Patient</strong> (low churn, measured
+          from actual month-to-month holdings), <strong style="color:var(--text)">concentrated</strong> in researched ideas,
+          with real weight behind the <strong style="color:var(--text)">top-10 best ideas</strong>. Research shows patient,
+          high-conviction managers outperform; closet indexers can't.
+        </p>
+      </div>
+      <div style="background:var(--bg3);border:1px solid var(--border);border-radius:14px;padding:26px">
+        <div style="font-size:30px;font-weight:800;color:var(--accent);letter-spacing:-1px">10%</div>
+        <div style="font-size:16px;font-weight:800;color:var(--text);margin:6px 0 10px">Cost</div>
+        <p style="font-size:13px;color:var(--muted);line-height:1.75;margin:0">
+          The most robust single predictor in 50 years of fund research:
+          <strong style="color:var(--text)">every rupee of fees is a rupee off your return.</strong>
+          Low-cost funds start every year ahead.
+        </p>
+      </div>
+    </div>
+    <div style="margin-top:20px;background:rgba(220,38,38,0.04);border:1px dashed rgba(220,38,38,0.25);border-radius:12px;padding:16px 20px;text-align:center;font-size:13px;color:var(--muted)">
+      What we deliberately <strong style="color:var(--red)">don't</strong> score: past returns · star ratings · brand · fund size.
+      The research is unambiguous — they predict nothing.
     </div>
   </div>
 </section>

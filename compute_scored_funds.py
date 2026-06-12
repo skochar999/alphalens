@@ -274,6 +274,27 @@ def run(data_dir: Path) -> None:
     # ── Combine & peer-rank within category ──
     df = pd.concat([active, index_df], ignore_index=True)
 
+    # ── Score v2 override (walk-forward-validated formula) ────────────────
+    # Selectivity 25 / pick t-stat 20 / patience 15 / concentration 15 /
+    # top-10 conviction 15 / cost 10. Validated: mean rank-IC +0.088, IC>0 in
+    # 76% of formations, t=4.0 (see sweep_score_weights.py). v1 kept as
+    # total_score_v1 for comparison. Index funds keep their cost+tracking
+    # score; active funds without v2 signals keep the NAV-only fallback.
+    try:
+        import compute_score_v2
+        v2 = compute_score_v2.run(None, data_dir / "scores_v2.parquet")
+        v2k = v2[["scheme_code", "score_v2", "tier",
+                  "pillar_skill", "pillar_conviction", "pillar_cost"]]
+        df["total_score_v1"] = df["total_score"]
+        df = df.merge(v2k, on="scheme_code", how="left")
+        ok = (df["category_display"].ne("Index Funds")) & df["score_v2"].notna()
+        df.loc[ok, "total_score"] = df.loc[ok, "score_v2"]
+        df.loc[ok, "nav_only"] = df.loc[ok, "tier"].eq(2)
+        log.info(f"Score v2 applied to {int(ok.sum())} active funds "
+                 f"({int((df.loc[ok,'tier']==1).sum())} on full holdings signals)")
+    except Exception as e:
+        log.warning(f"Score v2 unavailable — keeping v1 scores: {e}")
+
     def cat_rank(grp):
         grp = grp.copy()
         ranks = grp["total_score"].rank(ascending=False, method="min")

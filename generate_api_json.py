@@ -93,6 +93,11 @@ def build_funds(scores: pd.DataFrame) -> list:
             "dSector":  _f(r.get("d_sector"), 1),
             "dPick":    _f(r.get("d_pick"), 1),
             "dTiming":  _f(r.get("d_timing"), 1),
+            # Score v2 pillar roll-ups (0–100 percentile ranks; null when the
+            # fund lacks 12 months of holdings signals)
+            "pSkill":   _f(r.get("pillar_skill"), 0),
+            "pConv":    _f(r.get("pillar_conviction"), 0),
+            "pCost":    _f(r.get("pillar_cost"), 0),
         })
     return funds
 
@@ -140,6 +145,35 @@ def _methodology() -> dict:
             "across equity, hybrid and solution-oriented categories. Index "
             "funds, ETFs, fund-of-funds, passive and arbitrage funds are "
             "excluded, since they aren't trying to pick stocks."
+        ),
+        "score_formula": (
+            "The AlphaPicker Score has three pillars. SKILL (45%): the "
+            "statistical consistency of pure stock-picking — every month we "
+            "decompose each fund's disclosed portfolio against a multi-factor "
+            "risk model, strip out market, style and sector effects, and test "
+            "whether what remains is skill or noise — plus how much of the "
+            "fund's behaviour can't be explained by factors at all (closet "
+            "index funds can't outperform after fees). CONVICTION (45%): does "
+            "the manager act like they believe it — patient (low churn, "
+            "measured from actual month-to-month holdings), concentrated in "
+            "researched ideas, with real weight behind the top-10 positions. "
+            "COST (10%): every rupee of fees is a rupee off your return. "
+            "Each ingredient is grounded in published academic research and "
+            "validated walk-forward on Indian fund data before it enters the "
+            "score."
+        ),
+        "what_we_ignore": (
+            "Past returns, star ratings, brand and fund size — the research "
+            "is unambiguous that none of them predict future performance, "
+            "and they are exactly how most funds get sold."
+        ),
+        "validation": (
+            "Signals must predict out-of-sample: at each historical month we "
+            "rank funds using only data available then, and measure how the "
+            "ranking predicted the NEXT 12 months. The current formula ranked "
+            "funds correctly-directionally in 76% of test windows; ranking by "
+            "past returns alone predicted nothing. Published signals that "
+            "failed this test were rejected."
         ),
         "stock_picking_history": (
             "A fund is rated on stock-picking skill only once it has at least "

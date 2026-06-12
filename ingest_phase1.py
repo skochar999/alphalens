@@ -266,6 +266,15 @@ AMC_CONFIG = {
     "nj":       dict(label="NJ", meta=["nj"],
                      ak="NJ-Mutual-Fund",
                      pages=["https://www.njmutualfund.com/Monthly-Portfolio.php"]),
+    # not a Phase-1 house: label matches the EXISTING holdings tag so that
+    # merge_month replaces old rows per re-ingested month (no duplicates),
+    # while months not re-supplied keep their original pipeline data.
+    "icici":    dict(label="ICICI_Pru", meta=["icici"],
+                     ak="ICICI-Prudential-Mutual-Fund",
+                     pages=[]),
+    "absl":     dict(label="Aditya_Birla", meta=["aditya", "birla"],
+                     ak="Aditya-Birla-Sun-Life-Mutual-Fund",
+                     pages=[]),
 }
 
 LINK_RE = re.compile(r'<a[^>]+href=["\']([^"\']+\.(?:xlsx|xls|zip))["\'][^>]*>(.*?)</a>',
