@@ -366,7 +366,10 @@ def merge_amc_into_holdings(new_data: dict[str,list], hold_dir: Path, amc_tag: s
     for date_str, rows in sorted(new_data.items()):
         parq = hold_dir / f"{date_str}.parquet"
         new_df = pd.DataFrame(rows)
-        new_df["as_of_date"] = date_str
+        # month-end datetime to match merge_month() in ingest_phase1.py —
+        # mixing str with the datetime64 column already in the parquet breaks
+        # the pyarrow write (ArrowTypeError).
+        new_df["as_of_date"] = pd.Timestamp(f"{date_str}-01") + pd.offsets.MonthEnd(0)
         new_df["_sheet"]     = amc_tag
         new_df["year"]       = float(date_str[:4])
         new_df["month"]      = float(date_str[5:7])
@@ -378,6 +381,7 @@ def merge_amc_into_holdings(new_data: dict[str,list], hold_dir: Path, amc_tag: s
         if parq.exists():
             existing = pd.read_parquet(parq)
             existing = existing[existing["amc"] != amc_tag]
+            existing["as_of_date"] = pd.to_datetime(existing["as_of_date"], errors="coerce")
             combined = pd.concat([existing, new_df], ignore_index=True)
         else:
             combined = new_df
