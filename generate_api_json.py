@@ -59,6 +59,29 @@ def _r0(v):
     return int(round(float(v)))
 
 
+def _i(v):
+    """Integer or None (for counts like months of history)."""
+    if _nonfinite(v):
+        return None
+    return int(round(float(v)))
+
+
+# Minimum months of holdings history required to trust stock-selection alpha.
+MIN_PICK_MONTHS = 12
+
+
+def _pick_ann(v, n_months):
+    """Annualised stock-pick alpha (pp), suppressed to None when the fund has
+    fewer than MIN_PICK_MONTHS of holdings history (noise-dominated, produces
+    implausible outliers)."""
+    if _nonfinite(v):
+        return None
+    n = _i(n_months)
+    if n is None or n < MIN_PICK_MONTHS:
+        return None
+    return round(float(v), 1)
+
+
 def _sanitize(obj):
     """Recursively replace any non-finite float (NaN/Inf) with None so the
     serialized JSON is always valid. Belt-and-suspenders for the API."""
@@ -84,7 +107,14 @@ def build_funds(scores: pd.DataFrame) -> list:
             "hrate":    _r0((r.get("hit_rate") or 0) * 100),
             # pick_ann_pp is already in annualised percentage points (it's
             # computed as mean * 12 * 100), so do NOT multiply by 100 again.
-            "pickAnn":  _f(r.get("pick_ann_pp"), 1),
+            # Suppress the stock-pick alpha for funds with under 12 months of
+            # holdings history: with so few months the monthly selection series
+            # is dominated by noise and produces implausible outliers (e.g.
+            # +76%/yr off 2 months). pickN carries the month count so the UI can
+            # show an "insufficient history" treatment. 12 matches the scorer's
+            # MIN_PICK_MONTHS and the pillar gating.
+            "pickAnn":  _pick_ann(r.get("pick_ann_pp"), r.get("n_pick_months")),
+            "pickN":    _i(r.get("n_pick_months")),
             "ter":      _pct(r.get("ter_est"), 2),
             "ret":      _pct(r.get("ann_ret") or r.get("net_ann_ret") or r.get("total_return_ann"), 1),
             "navOnly":  bool(r["nav_only"]) if pd.notna(r.get("nav_only")) else True,
